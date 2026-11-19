@@ -208,7 +208,7 @@ La matriz historia de usuario → componente → endpoint → tabla → prueba e
 - El archivo se valida por su contenido real (un `.pdf` falso se rechaza), con tope de 5 MB.
 - Límites por IP para sesiones, mensajes y CV; con `ENTORNO=produccion` se ocultan `/docs` y `/openapi.json`.
 
-## 10. Pruebas
+## 9. Pruebas
 
 ```bash
 pip install -r backend/requirements-dev.txt
@@ -219,7 +219,7 @@ Cubren el flujo completo con PDF y con Word, las 5 tablas, el rechazo de formato
 
 **Importante:** las pruebas del modo Gemini usan una IA simulada. Cuando pongas tu clave, probá con un CV real y verificá que el análisis diga «Análisis con IA».
 
-## 11. Problemas comunes
+## 10. Problemas comunes
 
 | Síntoma | Qué revisar |
 |---|---|
