@@ -1,0 +1,19 @@
+# LABOREA IA - dependencias del backend (Python 3.10 o superior)
+# Instalar:  pip install -r backend/requirements.txt
+# Auditar:   pip install pip-audit  &&  pip-audit -r backend/requirements.txt
+
+fastapi>=0.115
+starlette>=1.0.1          # corrige CVE-2026-48710 (Host malformado)
+uvicorn>=0.30
+sqlalchemy>=2.0
+python-dotenv>=1.0
+pydantic>=2.6
+python-multipart>=0.0.9   # necesario para subir el CV (multipart/form-data)
+pypdf>=5.0                # lee CV en PDF
+python-docx>=1.1          # lee CV en Word (.docx)
+
+# SDK oficial de Gemini (el viejo "google-generativeai" está obsoleto).
+google-genai>=1.0
+
+# Solo si usás PostgreSQL en vez de SQLite (ver DATABASE_URL en .env):
+# psycopg2-binary>=2.9

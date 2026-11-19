@@ -1,0 +1,1871 @@
+{
+  "version": "ejemplo-2026-11",
+  "aviso": "Base de ejemplo para el prototipo: los requisitos son una referencia general y NO son vacantes reales. Reemplazala o ampliala con los puestos y requisitos que releve el equipo.",
+  "puestos": [
+    {
+      "id": "frontend-jr",
+      "titulo": "Desarrollador/a Frontend Junior",
+      "alias": [
+        "frontend",
+        "front end",
+        "front-end",
+        "desarrollador web",
+        "desarrolladora web",
+        "react",
+        "web developer",
+        "desarrollo web"
+      ],
+      "hard_skills": [
+        {
+          "nombre": "HTML y CSS",
+          "alias": [
+            "html",
+            "html5",
+            "css",
+            "css3"
+          ],
+          "peso": 3,
+          "recurso": "mdn",
+          "semanas": 3,
+          "motivo": "Es la base de cualquier interfaz web."
+        },
+        {
+          "nombre": "JavaScript",
+          "alias": [
+            "javascript",
+            "js",
+            "ecmascript",
+            "es6"
+          ],
+          "peso": 3,
+          "recurso": "mdn",
+          "semanas": 6,
+          "motivo": "Es el lenguaje que piden casi todas las ofertas web."
+        },
+        {
+          "nombre": "Git y GitHub",
+          "alias": [
+            "git",
+            "github",
+            "gitlab",
+            "control de versiones"
+          ],
+          "peso": 2,
+          "recurso": "progit",
+          "semanas": 2,
+          "motivo": "Los equipos trabajan con control de versiones desde el día uno."
+        },
+        {
+          "nombre": "React",
+          "alias": [
+            "react",
+            "reactjs",
+            "react.js"
+          ],
+          "peso": 3,
+          "recurso": "react",
+          "semanas": 5,
+          "motivo": "Es la librería de interfaces más pedida en ofertas junior."
+        },
+        {
+          "nombre": "TypeScript",
+          "alias": [
+            "typescript",
+            "ts"
+          ],
+          "peso": 2,
+          "recurso": "typescript",
+          "semanas": 3,
+          "motivo": "Cada vez más equipos lo exigen sobre JavaScript."
+        },
+        {
+          "nombre": "Diseño responsivo",
+          "alias": [
+            "responsive",
+            "responsivo",
+            "mobile first",
+            "flexbox",
+            "grid"
+          ],
+          "peso": 2,
+          "recurso": "mdn",
+          "semanas": 2,
+          "motivo": "Las interfaces tienen que funcionar en celular y en computadora."
+        },
+        {
+          "nombre": "Consumo de APIs REST",
+          "alias": [
+            "api rest",
+            "rest",
+            "fetch",
+            "axios",
+            "apis"
+          ],
+          "peso": 2,
+          "recurso": "mdn",
+          "semanas": 2,
+          "motivo": "El frontend se conecta con servicios del backend."
+        },
+        {
+          "nombre": "Inglés técnico (lectura)",
+          "alias": [
+            "inglés",
+            "ingles",
+            "english"
+          ],
+          "peso": 1,
+          "recurso": "freecodecamp",
+          "semanas": 8,
+          "motivo": "La documentación y muchas ofertas están en inglés."
+        }
+      ]
+    },
+    {
+      "id": "backend-jr",
+      "titulo": "Desarrollador/a Backend Junior",
+      "alias": [
+        "backend",
+        "back end",
+        "back-end",
+        "desarrollador backend",
+        "api",
+        "servidor",
+        "python",
+        "node",
+        "java"
+      ],
+      "hard_skills": [
+        {
+          "nombre": "Un lenguaje de backend (Python, Node.js o Java)",
+          "alias": [
+            "python",
+            "node",
+            "node.js",
+            "nodejs",
+            "java",
+            "c#",
+            "php",
+            "go"
+          ],
+          "peso": 3,
+          "recurso": "python",
+          "semanas": 8,
+          "motivo": "Necesitás dominar al menos un lenguaje para construir la lógica del servidor."
+        },
+        {
+          "nombre": "APIs REST",
+          "alias": [
+            "api rest",
+            "rest",
+            "restful",
+            "fastapi",
+            "express",
+            "spring",
+            "django",
+            "flask"
+          ],
+          "peso": 3,
+          "recurso": "fastapi",
+          "semanas": 4,
+          "motivo": "Es la forma estándar en que el backend se comunica con otras apps."
+        },
+        {
+          "nombre": "SQL",
+          "alias": [
+            "sql",
+            "mysql",
+            "postgresql",
+            "postgres",
+            "sqlite",
+            "sql server"
+          ],
+          "peso": 3,
+          "recurso": "sqlbolt",
+          "semanas": 3,
+          "motivo": "Casi todas las aplicaciones guardan datos en bases relacionales."
+        },
+        {
+          "nombre": "Git y GitHub",
+          "alias": [
+            "git",
+            "github",
+            "gitlab",
+            "control de versiones"
+          ],
+          "peso": 2,
+          "recurso": "progit",
+          "semanas": 2,
+          "motivo": "Los equipos trabajan con control de versiones desde el día uno."
+        },
+        {
+          "nombre": "Docker",
+          "alias": [
+            "docker",
+            "contenedores",
+            "docker compose"
+          ],
+          "peso": 2,
+          "recurso": "docker",
+          "semanas": 2,
+          "motivo": "Se usa para que la app corra igual en cualquier computadora."
+        },
+        {
+          "nombre": "Autenticación y seguridad básica",
+          "alias": [
+            "autenticacion",
+            "autenticación",
+            "jwt",
+            "oauth",
+            "seguridad"
+          ],
+          "peso": 2,
+          "recurso": "roadmap",
+          "semanas": 3,
+          "motivo": "Proteger datos de usuarios es un requisito en cualquier producto."
+        },
+        {
+          "nombre": "Testing",
+          "alias": [
+            "testing",
+            "pruebas unitarias",
+            "pytest",
+            "jest",
+            "unit test",
+            "tests"
+          ],
+          "peso": 1,
+          "recurso": "roadmap",
+          "semanas": 2,
+          "motivo": "Probar el código evita errores en producción."
+        },
+        {
+          "nombre": "Inglés técnico (lectura)",
+          "alias": [
+            "inglés",
+            "ingles",
+            "english"
+          ],
+          "peso": 1,
+          "recurso": "freecodecamp",
+          "semanas": 8,
+          "motivo": "La documentación y muchas ofertas están en inglés."
+        }
+      ]
+    },
+    {
+      "id": "fullstack-jr",
+      "titulo": "Desarrollador/a Fullstack Junior",
+      "alias": [
+        "fullstack",
+        "full stack",
+        "full-stack",
+        "desarrollador fullstack",
+        "desarrollador full stack",
+        "programador",
+        "programadora",
+        "desarrollador de software",
+        "software developer"
+      ],
+      "hard_skills": [
+        {
+          "nombre": "HTML y CSS",
+          "alias": [
+            "html",
+            "html5",
+            "css",
+            "css3"
+          ],
+          "peso": 3,
+          "recurso": "mdn",
+          "semanas": 3,
+          "motivo": "Es la base de cualquier interfaz web."
+        },
+        {
+          "nombre": "JavaScript",
+          "alias": [
+            "javascript",
+            "js",
+            "ecmascript",
+            "es6"
+          ],
+          "peso": 3,
+          "recurso": "mdn",
+          "semanas": 6,
+          "motivo": "Es el lenguaje que piden casi todas las ofertas web."
+        },
+        {
+          "nombre": "Git y GitHub",
+          "alias": [
+            "git",
+            "github",
+            "gitlab",
+            "control de versiones"
+          ],
+          "peso": 2,
+          "recurso": "progit",
+          "semanas": 2,
+          "motivo": "Los equipos trabajan con control de versiones desde el día uno."
+        },
+        {
+          "nombre": "React",
+          "alias": [
+            "react",
+            "reactjs",
+            "react.js"
+          ],
+          "peso": 3,
+          "recurso": "react",
+          "semanas": 5,
+          "motivo": "Es la librería de interfaces más pedida en ofertas junior."
+        },
+        {
+          "nombre": "TypeScript",
+          "alias": [
+            "typescript",
+            "ts"
+          ],
+          "peso": 3,
+          "recurso": "typescript",
+          "semanas": 3,
+          "motivo": "Aparece en la mayoría de los stacks modernos."
+        },
+        {
+          "nombre": "Un lenguaje de backend (Node.js, Python o Java)",
+          "alias": [
+            "node",
+            "node.js",
+            "nodejs",
+            "python",
+            "java",
+            "c#",
+            "php"
+          ],
+          "peso": 3,
+          "recurso": "python",
+          "semanas": 8,
+          "motivo": "El fullstack también construye la lógica del servidor."
+        },
+        {
+          "nombre": "SQL",
+          "alias": [
+            "sql",
+            "mysql",
+            "postgresql",
+            "postgres",
+            "sqlite",
+            "sql server"
+          ],
+          "peso": 3,
+          "recurso": "sqlbolt",
+          "semanas": 3,
+          "motivo": "Casi todas las aplicaciones guardan datos en bases relacionales."
+        },
+        {
+          "nombre": "Docker",
+          "alias": [
+            "docker",
+            "contenedores",
+            "docker compose"
+          ],
+          "peso": 2,
+          "recurso": "docker",
+          "semanas": 2,
+          "motivo": "Se usa para que la app corra igual en cualquier computadora."
+        },
+        {
+          "nombre": "Nociones de nube (Cloud)",
+          "alias": [
+            "cloud",
+            "aws",
+            "azure",
+            "gcp",
+            "google cloud",
+            "nube"
+          ],
+          "peso": 2,
+          "recurso": "awsskill",
+          "semanas": 3,
+          "motivo": "Los proyectos se publican en servicios de nube."
+        },
+        {
+          "nombre": "Inglés técnico (lectura)",
+          "alias": [
+            "inglés",
+            "ingles",
+            "english"
+          ],
+          "peso": 1,
+          "recurso": "freecodecamp",
+          "semanas": 8,
+          "motivo": "La documentación y muchas ofertas están en inglés."
+        }
+      ]
+    },
+    {
+      "id": "datos-jr",
+      "titulo": "Analista de Datos Junior",
+      "alias": [
+        "datos",
+        "analista de datos",
+        "data analyst",
+        "ciencia de datos",
+        "data science",
+        "bi",
+        "business intelligence",
+        "power bi",
+        "analista"
+      ],
+      "hard_skills": [
+        {
+          "nombre": "SQL",
+          "alias": [
+            "sql",
+            "mysql",
+            "postgresql",
+            "postgres",
+            "sqlite",
+            "sql server"
+          ],
+          "peso": 3,
+          "recurso": "sqlbolt",
+          "semanas": 3,
+          "motivo": "Casi todas las aplicaciones guardan datos en bases relacionales."
+        },
+        {
+          "nombre": "Python para datos (pandas)",
+          "alias": [
+            "python",
+            "pandas",
+            "numpy",
+            "jupyter"
+          ],
+          "peso": 3,
+          "recurso": "kaggle",
+          "semanas": 6,
+          "motivo": "Es la herramienta principal para limpiar y analizar datos."
+        },
+        {
+          "nombre": "Excel avanzado",
+          "alias": [
+            "excel",
+            "tablas dinamicas",
+            "tablas dinámicas",
+            "power query"
+          ],
+          "peso": 2,
+          "recurso": "mslearn",
+          "semanas": 3,
+          "motivo": "Muchas empresas todavía trabajan sus reportes en Excel."
+        },
+        {
+          "nombre": "Visualización de datos (Power BI o Tableau)",
+          "alias": [
+            "power bi",
+            "tableau",
+            "looker",
+            "dashboards",
+            "dashboard",
+            "matplotlib"
+          ],
+          "peso": 3,
+          "recurso": "mslearn",
+          "semanas": 4,
+          "motivo": "Hay que comunicar los hallazgos con gráficos claros."
+        },
+        {
+          "nombre": "Estadística básica",
+          "alias": [
+            "estadistica",
+            "estadística",
+            "probabilidad",
+            "regresion",
+            "regresión",
+            "correlacion",
+            "correlación"
+          ],
+          "peso": 3,
+          "recurso": "kaggle",
+          "semanas": 5,
+          "motivo": "Sin estadística no se pueden sacar conclusiones confiables."
+        },
+        {
+          "nombre": "Git y GitHub",
+          "alias": [
+            "git",
+            "github",
+            "gitlab",
+            "control de versiones"
+          ],
+          "peso": 1,
+          "recurso": "progit",
+          "semanas": 2,
+          "motivo": "Sirve para versionar análisis y mostrar tu portfolio."
+        },
+        {
+          "nombre": "Inglés técnico (lectura)",
+          "alias": [
+            "inglés",
+            "ingles",
+            "english"
+          ],
+          "peso": 1,
+          "recurso": "freecodecamp",
+          "semanas": 8,
+          "motivo": "La documentación y muchas ofertas están en inglés."
+        }
+      ]
+    },
+    {
+      "id": "qa-jr",
+      "titulo": "QA Tester Junior",
+      "alias": [
+        "qa",
+        "tester",
+        "testing",
+        "quality assurance",
+        "analista qa",
+        "pruebas de software",
+        "control de calidad"
+      ],
+      "hard_skills": [
+        {
+          "nombre": "Diseño de casos de prueba",
+          "alias": [
+            "casos de prueba",
+            "test cases",
+            "plan de pruebas",
+            "testing manual",
+            "pruebas manuales"
+          ],
+          "peso": 3,
+          "recurso": "roadmap",
+          "semanas": 3,
+          "motivo": "Es la tarea central de un tester."
+        },
+        {
+          "nombre": "Reporte de errores (bugs)",
+          "alias": [
+            "jira",
+            "bug",
+            "bugs",
+            "reporte de errores",
+            "trello"
+          ],
+          "peso": 2,
+          "recurso": "roadmap",
+          "semanas": 2,
+          "motivo": "Hay que documentar los errores de forma clara y reproducible."
+        },
+        {
+          "nombre": "SQL",
+          "alias": [
+            "sql",
+            "mysql",
+            "postgresql",
+            "postgres",
+            "sqlite",
+            "sql server"
+          ],
+          "peso": 3,
+          "recurso": "sqlbolt",
+          "semanas": 3,
+          "motivo": "Casi todas las aplicaciones guardan datos en bases relacionales."
+        },
+        {
+          "nombre": "Pruebas de APIs",
+          "alias": [
+            "postman",
+            "api rest",
+            "apis",
+            "swagger"
+          ],
+          "peso": 2,
+          "recurso": "roadmap",
+          "semanas": 2,
+          "motivo": "Muchas pruebas se hacen directamente sobre servicios."
+        },
+        {
+          "nombre": "Automatización de pruebas",
+          "alias": [
+            "selenium",
+            "cypress",
+            "playwright",
+            "automatizacion",
+            "automatización"
+          ],
+          "peso": 2,
+          "recurso": "roadmap",
+          "semanas": 6,
+          "motivo": "Suma mucho para pasar de manual a automatizado."
+        },
+        {
+          "nombre": "Metodologías ágiles",
+          "alias": [
+            "scrum",
+            "kanban",
+            "agil",
+            "ágil",
+            "agile"
+          ],
+          "peso": 2,
+          "recurso": "roadmap",
+          "semanas": 1,
+          "motivo": "Casi todos los equipos de software trabajan en ciclos ágiles."
+        },
+        {
+          "nombre": "Inglés técnico (lectura)",
+          "alias": [
+            "inglés",
+            "ingles",
+            "english"
+          ],
+          "peso": 1,
+          "recurso": "freecodecamp",
+          "semanas": 8,
+          "motivo": "La documentación y muchas ofertas están en inglés."
+        }
+      ]
+    },
+    {
+      "id": "soporte-it",
+      "titulo": "Soporte Técnico / Help Desk IT",
+      "alias": [
+        "soporte",
+        "soporte tecnico",
+        "soporte técnico",
+        "help desk",
+        "mesa de ayuda",
+        "it support",
+        "tecnico informatico",
+        "técnico informático",
+        "sistemas"
+      ],
+      "hard_skills": [
+        {
+          "nombre": "Sistemas operativos (Windows y Linux)",
+          "alias": [
+            "windows",
+            "linux",
+            "ubuntu",
+            "macos",
+            "active directory"
+          ],
+          "peso": 3,
+          "recurso": "mslearn",
+          "semanas": 4,
+          "motivo": "La mayoría de los tickets son de configuración y fallas del sistema."
+        },
+        {
+          "nombre": "Redes básicas",
+          "alias": [
+            "redes",
+            "tcp/ip",
+            "dns",
+            "dhcp",
+            "wifi",
+            "vpn",
+            "networking"
+          ],
+          "peso": 3,
+          "recurso": "mslearn",
+          "semanas": 4,
+          "motivo": "Muchos problemas son de conectividad."
+        },
+        {
+          "nombre": "Sistema de tickets",
+          "alias": [
+            "tickets",
+            "jira",
+            "service desk",
+            "zendesk",
+            "glpi",
+            "mesa de ayuda"
+          ],
+          "peso": 2,
+          "recurso": "roadmap",
+          "semanas": 1,
+          "motivo": "Se registra y prioriza cada pedido de los usuarios."
+        },
+        {
+          "nombre": "Hardware y diagnóstico",
+          "alias": [
+            "hardware",
+            "armado de pc",
+            "diagnostico",
+            "diagnóstico",
+            "reparacion",
+            "reparación",
+            "mantenimiento"
+          ],
+          "peso": 2,
+          "recurso": "mslearn",
+          "semanas": 3,
+          "motivo": "Hay que resolver fallas físicas de equipos."
+        },
+        {
+          "nombre": "Office 365 / Google Workspace",
+          "alias": [
+            "office 365",
+            "microsoft 365",
+            "google workspace",
+            "outlook",
+            "teams"
+          ],
+          "peso": 1,
+          "recurso": "mslearn",
+          "semanas": 1,
+          "motivo": "Son las herramientas de trabajo de casi toda empresa."
+        },
+        {
+          "nombre": "Inglés técnico (lectura)",
+          "alias": [
+            "inglés",
+            "ingles",
+            "english"
+          ],
+          "peso": 1,
+          "recurso": "freecodecamp",
+          "semanas": 8,
+          "motivo": "La documentación y muchas ofertas están en inglés."
+        }
+      ]
+    },
+    {
+      "id": "data-engineer-jr",
+      "titulo": "Ingeniero/a de Datos Junior (Data Engineer)",
+      "alias": [
+        "data engineer",
+        "ingeniero de datos",
+        "ingeniera de datos",
+        "etl",
+        "pipelines de datos",
+        "big data",
+        "ingenieria de datos"
+      ],
+      "hard_skills": [
+        {
+          "nombre": "SQL avanzado",
+          "alias": [
+            "sql",
+            "postgresql",
+            "mysql",
+            "bigquery",
+            "snowflake",
+            "consultas sql"
+          ],
+          "peso": 3,
+          "recurso": "sqlbolt",
+          "semanas": 4,
+          "motivo": "Es fundamental para consultar, transformar y modelar datos en almacenes."
+        },
+        {
+          "nombre": "Python para ingeniería de datos",
+          "alias": [
+            "python",
+            "pandas",
+            "pyspark",
+            "scripts python"
+          ],
+          "peso": 3,
+          "recurso": "python",
+          "semanas": 6,
+          "motivo": "Se usa para construir procesos de extracción y transformación (ETL)."
+        },
+        {
+          "nombre": "Procesos ETL y Orquestación",
+          "alias": [
+            "etl",
+            "elt",
+            "airflow",
+            "apache airflow",
+            "dbt",
+            "pipelines"
+          ],
+          "peso": 3,
+          "recurso": "roadmap",
+          "semanas": 4,
+          "motivo": "Automatiza la ingesta y limpieza periódica de datos."
+        },
+        {
+          "nombre": "Nociones de nube (Cloud Data)",
+          "alias": [
+            "aws",
+            "s3",
+            "gcp",
+            "bigquery",
+            "azure",
+            "cloud",
+            "nube"
+          ],
+          "peso": 2,
+          "recurso": "awsskill",
+          "semanas": 3,
+          "motivo": "La mayoría de los Data Lakes y Data Warehouses viven en la nube."
+        },
+        {
+          "nombre": "Docker y Linux",
+          "alias": [
+            "docker",
+            "linux",
+            "bash",
+            "contenedores"
+          ],
+          "peso": 2,
+          "recurso": "docker",
+          "semanas": 2,
+          "motivo": "Los pipelines suelen ejecutarse en entornos Linux contenedorizados."
+        },
+        {
+          "nombre": "Git y GitHub",
+          "alias": [
+            "git",
+            "github",
+            "gitlab",
+            "control de versiones"
+          ],
+          "peso": 2,
+          "recurso": "progit",
+          "semanas": 2,
+          "motivo": "Permite versionar código de transformación y colaborar en equipo."
+        },
+        {
+          "nombre": "Inglés técnico (lectura)",
+          "alias": [
+            "inglés",
+            "ingles",
+            "english"
+          ],
+          "peso": 1,
+          "recurso": "freecodecamp",
+          "semanas": 8,
+          "motivo": "La documentación de herramientas de datos está en inglés."
+        }
+      ]
+    },
+    {
+      "id": "data-scientist-jr",
+      "titulo": "Científico/a de Datos Junior (Data Scientist)",
+      "alias": [
+        "data scientist",
+        "cientifico de datos",
+        "científico de datos",
+        "cientifica de datos",
+        "machine learning",
+        "ml",
+        "modelos predictivos"
+      ],
+      "hard_skills": [
+        {
+          "nombre": "Python y librerías científicas",
+          "alias": [
+            "python",
+            "pandas",
+            "numpy",
+            "scipy",
+            "jupyter"
+          ],
+          "peso": 3,
+          "recurso": "kaggle",
+          "semanas": 6,
+          "motivo": "Es el ecosistema estándar para exploración y modelado de datos."
+        },
+        {
+          "nombre": "Machine Learning (Scikit-learn)",
+          "alias": [
+            "machine learning",
+            "scikit-learn",
+            "sklearn",
+            "modelos predictivos",
+            "clasificacion",
+            "regresion"
+          ],
+          "peso": 3,
+          "recurso": "kaggle",
+          "semanas": 6,
+          "motivo": "Permite entrenar y evaluar algoritmos supervisados y no supervisados."
+        },
+        {
+          "nombre": "Estadística y Probabilidad",
+          "alias": [
+            "estadistica",
+            "estadística",
+            "probabilidad",
+            "hipotesis",
+            "hipótesis",
+            "inferencia"
+          ],
+          "peso": 3,
+          "recurso": "kaggle",
+          "semanas": 5,
+          "motivo": "Sustenta la validación matemática de los modelos y experimentos."
+        },
+        {
+          "nombre": "SQL",
+          "alias": [
+            "sql",
+            "mysql",
+            "postgresql",
+            "sqlite",
+            "bigquery"
+          ],
+          "peso": 2,
+          "recurso": "sqlbolt",
+          "semanas": 3,
+          "motivo": "Necesario para extraer los datasets directamente desde las bases."
+        },
+        {
+          "nombre": "Visualización y Storytelling de datos",
+          "alias": [
+            "matplotlib",
+            "seaborn",
+            "plotly",
+            "visualizacion",
+            "visualización"
+          ],
+          "peso": 2,
+          "recurso": "kaggle",
+          "semanas": 2,
+          "motivo": "Comunica métricas y resultados de modelos a perfiles no técnicos."
+        },
+        {
+          "nombre": "Git y GitHub",
+          "alias": [
+            "git",
+            "github",
+            "gitlab",
+            "control de versiones"
+          ],
+          "peso": 2,
+          "recurso": "progit",
+          "semanas": 2,
+          "motivo": "Sirve para versionar notebooks, scripts y experimentos."
+        },
+        {
+          "nombre": "Inglés técnico (lectura)",
+          "alias": [
+            "inglés",
+            "ingles",
+            "english"
+          ],
+          "peso": 1,
+          "recurso": "freecodecamp",
+          "semanas": 8,
+          "motivo": "Los papers y librerías de IA/ML se publican en inglés."
+        }
+      ]
+    },
+    {
+      "id": "ai-engineer-jr",
+      "titulo": "Ingeniero/a de IA Aplicada Junior (AI Engineer)",
+      "alias": [
+        "ai engineer",
+        "ingeniero de ia",
+        "ingeniera de ia",
+        "inteligencia artificial",
+        "llm",
+        "rag",
+        "ia generativa",
+        "gen ai"
+      ],
+      "hard_skills": [
+        {
+          "nombre": "Python y APIs REST",
+          "alias": [
+            "python",
+            "fastapi",
+            "api rest",
+            "requests",
+            "httpx"
+          ],
+          "peso": 3,
+          "recurso": "fastapi",
+          "semanas": 5,
+          "motivo": "Es el lenguaje base para integrar modelos de lenguaje en aplicaciones."
+        },
+        {
+          "nombre": "Consumo de APIs de LLMs y Prompt Engineering",
+          "alias": [
+            "openai",
+            "gemini",
+            "llm",
+            "prompt engineering",
+            "prompts",
+            "langchain",
+            "llamaindex"
+          ],
+          "peso": 3,
+          "recurso": "roadmap",
+          "semanas": 4,
+          "motivo": "Permite estructurar salidas, controlar alucinaciones y encadenar tareas."
+        },
+        {
+          "nombre": "Embeddings y Recuperación (RAG)",
+          "alias": [
+            "rag",
+            "embeddings",
+            "vectores",
+            "chromadb",
+            "pinecone",
+            "pgvector",
+            "busqueda semantica"
+          ],
+          "peso": 3,
+          "recurso": "roadmap",
+          "semanas": 4,
+          "motivo": "Conecta los modelos con bases de conocimiento propias del negocio."
+        },
+        {
+          "nombre": "SQL y Bases de Datos",
+          "alias": [
+            "sql",
+            "postgresql",
+            "sqlite",
+            "json",
+            "bases de datos"
+          ],
+          "peso": 2,
+          "recurso": "sqlbolt",
+          "semanas": 3,
+          "motivo": "Se necesita para guardar historial, métricas y metadatos."
+        },
+        {
+          "nombre": "Docker y Git",
+          "alias": [
+            "docker",
+            "git",
+            "github",
+            "contenedores"
+          ],
+          "peso": 2,
+          "recurso": "docker",
+          "semanas": 2,
+          "motivo": "Facilita el despliegue reproducible de microservicios de IA."
+        },
+        {
+          "nombre": "Inglés técnico (lectura)",
+          "alias": [
+            "inglés",
+            "ingles",
+            "english"
+          ],
+          "peso": 2,
+          "recurso": "freecodecamp",
+          "semanas": 8,
+          "motivo": "Todas las novedades y SDKs de IA salen primero en inglés."
+        }
+      ]
+    },
+    {
+      "id": "devops-jr",
+      "titulo": "Ingeniero/a DevOps / Cloud Junior",
+      "alias": [
+        "devops",
+        "cloud engineer",
+        "ingeniero cloud",
+        "infraestructura",
+        "ci/cd",
+        "sre",
+        "sysadmin"
+      ],
+      "hard_skills": [
+        {
+          "nombre": "Administración Linux y Bash",
+          "alias": [
+            "linux",
+            "ubuntu",
+            "bash",
+            "shell",
+            "scripting",
+            "terminal"
+          ],
+          "peso": 3,
+          "recurso": "roadmap",
+          "semanas": 4,
+          "motivo": "La inmensa mayoría de los servidores en la nube corren sobre Linux."
+        },
+        {
+          "nombre": "Docker y Contenedores",
+          "alias": [
+            "docker",
+            "docker compose",
+            "contenedores",
+            "kubernetes",
+            "k8s"
+          ],
+          "peso": 3,
+          "recurso": "docker",
+          "semanas": 4,
+          "motivo": "Es la unidad estándar de empaquetado y despliegue moderno."
+        },
+        {
+          "nombre": "Pipelines CI/CD",
+          "alias": [
+            "ci/cd",
+            "github actions",
+            "gitlab ci",
+            "jenkins",
+            "integracion continua"
+          ],
+          "peso": 3,
+          "recurso": "roadmap",
+          "semanas": 3,
+          "motivo": "Automatiza las pruebas y la puesta en producción del código."
+        },
+        {
+          "nombre": "Nube (AWS, Azure o GCP)",
+          "alias": [
+            "aws",
+            "azure",
+            "gcp",
+            "google cloud",
+            "ec2",
+            "s3",
+            "cloud"
+          ],
+          "peso": 3,
+          "recurso": "awsskill",
+          "semanas": 5,
+          "motivo": "Gestionar redes, cómputo y permisos en la nube es el corazón del rol."
+        },
+        {
+          "nombre": "Git y Control de Versiones",
+          "alias": [
+            "git",
+            "github",
+            "gitlab"
+          ],
+          "peso": 2,
+          "recurso": "progit",
+          "semanas": 2,
+          "motivo": "Todo el código de infraestructura y pipelines se gestiona en Git."
+        },
+        {
+          "nombre": "Redes y Seguridad básica",
+          "alias": [
+            "redes",
+            "dns",
+            "http",
+            "https",
+            "ssl",
+            "ssh",
+            "firewall"
+          ],
+          "peso": 2,
+          "recurso": "roadmap",
+          "semanas": 3,
+          "motivo": "Indispensable para configurar dominios, certificados y accesos seguros."
+        },
+        {
+          "nombre": "Inglés técnico (lectura)",
+          "alias": [
+            "inglés",
+            "ingles",
+            "english"
+          ],
+          "peso": 1,
+          "recurso": "freecodecamp",
+          "semanas": 8,
+          "motivo": "Las consolas cloud y documentaciones están en inglés."
+        }
+      ]
+    },
+    {
+      "id": "ciberseguridad-jr",
+      "titulo": "Analista de Ciberseguridad Junior (SOC)",
+      "alias": [
+        "ciberseguridad",
+        "cybersecurity",
+        "seguridad informatica",
+        "seguridad informática",
+        "soc",
+        "infosec",
+        "pentesting"
+      ],
+      "hard_skills": [
+        {
+          "nombre": "Redes y Protocolos (TCP/IP)",
+          "alias": [
+            "redes",
+            "tcp/ip",
+            "wireshark",
+            "dns",
+            "http",
+            "vpn",
+            "firewall"
+          ],
+          "peso": 3,
+          "recurso": "roadmap",
+          "semanas": 4,
+          "motivo": "Para detectar tráfico anómalo primero hay que entender cómo viajan los datos."
+        },
+        {
+          "nombre": "Sistemas Operativos (Linux y Windows)",
+          "alias": [
+            "linux",
+            "kali",
+            "windows server",
+            "active directory",
+            "logs"
+          ],
+          "peso": 3,
+          "recurso": "mslearn",
+          "semanas": 4,
+          "motivo": "El análisis de registros y permisos ocurre sobre estos sistemas."
+        },
+        {
+          "nombre": "Fundamentos de Seguridad y OWASP",
+          "alias": [
+            "owasp",
+            "vulnerabilidades",
+            "phishing",
+            "malware",
+            "siem",
+            "seguridad web"
+          ],
+          "peso": 3,
+          "recurso": "roadmap",
+          "semanas": 4,
+          "motivo": "Permite identificar vectores de ataque comunes y clasificar alertas."
+        },
+        {
+          "nombre": "Scripting básico (Python o Bash)",
+          "alias": [
+            "python",
+            "bash",
+            "powershell",
+            "scripting"
+          ],
+          "peso": 2,
+          "recurso": "python",
+          "semanas": 3,
+          "motivo": "Ayuda a automatizar el análisis de logs y tareas repetitivas."
+        },
+        {
+          "nombre": "Inglés técnico (lectura)",
+          "alias": [
+            "inglés",
+            "ingles",
+            "english"
+          ],
+          "peso": 2,
+          "recurso": "freecodecamp",
+          "semanas": 8,
+          "motivo": "Los reportes de amenazas (CVE) y herramientas están en inglés."
+        }
+      ]
+    },
+    {
+      "id": "mobile-jr",
+      "titulo": "Desarrollador/a Mobile Junior",
+      "alias": [
+        "mobile",
+        "desarrollador mobile",
+        "android",
+        "ios",
+        "flutter",
+        "react native",
+        "apps moviles",
+        "aplicaciones moviles"
+      ],
+      "hard_skills": [
+        {
+          "nombre": "Framework Mobile (React Native o Flutter) o Nativo",
+          "alias": [
+            "react native",
+            "flutter",
+            "dart",
+            "kotlin",
+            "swift",
+            "android",
+            "ios"
+          ],
+          "peso": 3,
+          "recurso": "roadmap",
+          "semanas": 6,
+          "motivo": "Es la tecnología principal para construir interfaces en celulares."
+        },
+        {
+          "nombre": "JavaScript / TypeScript o Dart / Kotlin",
+          "alias": [
+            "javascript",
+            "typescript",
+            "dart",
+            "kotlin",
+            "swift"
+          ],
+          "peso": 3,
+          "recurso": "typescript",
+          "semanas": 5,
+          "motivo": "El lenguaje base sobre el que corre la lógica de la app móvil."
+        },
+        {
+          "nombre": "Consumo de APIs REST y Almacenamiento Local",
+          "alias": [
+            "api rest",
+            "rest",
+            "json",
+            "sqlite",
+            "asyncstorage",
+            "firebase"
+          ],
+          "peso": 3,
+          "recurso": "mdn",
+          "semanas": 3,
+          "motivo": "Las apps necesitan sincronizar datos con servidores y guardar caché."
+        },
+        {
+          "nombre": "Git y GitHub",
+          "alias": [
+            "git",
+            "github",
+            "gitlab",
+            "control de versiones"
+          ],
+          "peso": 2,
+          "recurso": "progit",
+          "semanas": 2,
+          "motivo": "Indispensable para trabajar en equipo y manejar versiones de la app."
+        },
+        {
+          "nombre": "Diseño de interfaces móviles (UI/UX básico)",
+          "alias": [
+            "ui",
+            "ux",
+            "responsive",
+            "figma",
+            "navegacion"
+          ],
+          "peso": 2,
+          "recurso": "roadmap",
+          "semanas": 2,
+          "motivo": "Las pantallas táctiles tienen reglas propias de usabilidad."
+        },
+        {
+          "nombre": "Inglés técnico (lectura)",
+          "alias": [
+            "inglés",
+            "ingles",
+            "english"
+          ],
+          "peso": 1,
+          "recurso": "freecodecamp",
+          "semanas": 8,
+          "motivo": "Las guías de Google Play y App Store están en inglés."
+        }
+      ]
+    },
+    {
+      "id": "ux-ui-jr",
+      "titulo": "Diseñador/a UX/UI Junior",
+      "alias": [
+        "ux",
+        "ui",
+        "ux/ui",
+        "diseñador ux",
+        "diseñadora ux",
+        "product designer",
+        "diseño de interfaces",
+        "figma"
+      ],
+      "hard_skills": [
+        {
+          "nombre": "Figma y Prototipado",
+          "alias": [
+            "figma",
+            "prototipado",
+            "wireframes",
+            "auto layout",
+            "componentes"
+          ],
+          "peso": 3,
+          "recurso": "roadmap",
+          "semanas": 4,
+          "motivo": "Es la herramienta estándar de la industria para diseñar interfaces."
+        },
+        {
+          "nombre": "Investigación con Usuarios (UX Research)",
+          "alias": [
+            "ux research",
+            "entrevistas",
+            "pruebas de usabilidad",
+            "user persona",
+            "user journey"
+          ],
+          "peso": 3,
+          "recurso": "roadmap",
+          "semanas": 4,
+          "motivo": "Permite diseñar soluciones basadas en necesidades reales y no suposiciones."
+        },
+        {
+          "nombre": "Sistemas de Diseño y Accesibilidad",
+          "alias": [
+            "design system",
+            "sistema de diseño",
+            "accesibilidad",
+            "wcag",
+            "ui kit"
+          ],
+          "peso": 2,
+          "recurso": "mdn",
+          "semanas": 3,
+          "motivo": "Asegura consistencia visual y que cualquier persona pueda usar el producto."
+        },
+        {
+          "nombre": "Nociones de HTML y CSS",
+          "alias": [
+            "html",
+            "css",
+            "responsive",
+            "handoff"
+          ],
+          "peso": 1,
+          "recurso": "mdn",
+          "semanas": 2,
+          "motivo": "Facilita la comunicación y entrega de diseños al equipo de desarrollo."
+        },
+        {
+          "nombre": "Inglés técnico (lectura)",
+          "alias": [
+            "inglés",
+            "ingles",
+            "english"
+          ],
+          "peso": 1,
+          "recurso": "freecodecamp",
+          "semanas": 8,
+          "motivo": "Gran parte de los recursos y terminología UX están en inglés."
+        }
+      ]
+    },
+    {
+      "id": "analista-funcional-jr",
+      "titulo": "Analista Funcional IT Junior",
+      "alias": [
+        "analista funcional",
+        "business analyst",
+        "analista de negocio",
+        "requerimientos",
+        "historias de usuario",
+        "funcional"
+      ],
+      "hard_skills": [
+        {
+          "nombre": "Relevamiento y Historias de Usuario",
+          "alias": [
+            "historias de usuario",
+            "user stories",
+            "requerimientos",
+            "criterios de aceptacion",
+            "jira"
+          ],
+          "peso": 3,
+          "recurso": "roadmap",
+          "semanas": 3,
+          "motivo": "Es el puente principal entre lo que pide el cliente y lo que programa el equipo."
+        },
+        {
+          "nombre": "Modelado de Procesos (BPMN / Diagramas)",
+          "alias": [
+            "bpmn",
+            "diagrama de flujo",
+            "uml",
+            "casos de uso",
+            "procesos",
+            "bizagi"
+          ],
+          "peso": 3,
+          "recurso": "roadmap",
+          "semanas": 3,
+          "motivo": "Ayuda a visualizar flujos de negocio y detectar casos borde."
+        },
+        {
+          "nombre": "SQL básico para consultas",
+          "alias": [
+            "sql",
+            "consultas",
+            "base de datos",
+            "select",
+            "mysql",
+            "postgresql"
+          ],
+          "peso": 2,
+          "recurso": "sqlbolt",
+          "semanas": 3,
+          "motivo": "Permite verificar datos reales sin depender siempre de un desarrollador."
+        },
+        {
+          "nombre": "Pruebas Funcionales (UAT) y APIs",
+          "alias": [
+            "uat",
+            "pruebas funcionales",
+            "postman",
+            "api",
+            "testing"
+          ],
+          "peso": 2,
+          "recurso": "roadmap",
+          "semanas": 2,
+          "motivo": "Valida que lo desarrollado cumpla con las reglas de negocio acordadas."
+        },
+        {
+          "nombre": "Metodologías Ágiles (Scrum / Kanban)",
+          "alias": [
+            "scrum",
+            "kanban",
+            "agile",
+            "agil",
+            "ágil",
+            "backlog"
+          ],
+          "peso": 2,
+          "recurso": "roadmap",
+          "semanas": 2,
+          "motivo": "Permite gestionar y priorizar el backlog junto al Product Owner."
+        },
+        {
+          "nombre": "Inglés técnico (lectura)",
+          "alias": [
+            "inglés",
+            "ingles",
+            "english"
+          ],
+          "peso": 1,
+          "recurso": "freecodecamp",
+          "semanas": 8,
+          "motivo": "Útil para proyectos internacionales y documentación técnica."
+        }
+      ]
+    },
+    {
+      "id": "dba-jr",
+      "titulo": "Administrador/a de Bases de Datos Junior (DBA)",
+      "alias": [
+        "dba",
+        "administrador de bases de datos",
+        "base de datos",
+        "database administrator",
+        "sql server",
+        "postgresql",
+        "oracle"
+      ],
+      "hard_skills": [
+        {
+          "nombre": "SQL y Modelado Relacional",
+          "alias": [
+            "sql",
+            "postgresql",
+            "mysql",
+            "sql server",
+            "oracle",
+            "normalizacion",
+            "indices"
+          ],
+          "peso": 3,
+          "recurso": "sqlbolt",
+          "semanas": 4,
+          "motivo": "Es la base para estructurar tablas, relaciones y optimizar consultas."
+        },
+        {
+          "nombre": "Backups, Restauración y Seguridad DB",
+          "alias": [
+            "backup",
+            "respaldo",
+            "restauracion",
+            "permisos",
+            "usuarios",
+            "seguridad"
+          ],
+          "peso": 3,
+          "recurso": "mslearn",
+          "semanas": 3,
+          "motivo": "Garantiza la integridad y disponibilidad de la información crítica."
+        },
+        {
+          "nombre": "Sistemas Operativos (Linux y Windows Server)",
+          "alias": [
+            "linux",
+            "windows server",
+            "bash",
+            "powershell"
+          ],
+          "peso": 2,
+          "recurso": "mslearn",
+          "semanas": 3,
+          "motivo": "Los motores de bases de datos se instalan y monitorean sobre estos servidores."
+        },
+        {
+          "nombre": "Bases de Datos NoSQL (nociones)",
+          "alias": [
+            "nosql",
+            "mongodb",
+            "redis",
+            "documentos"
+          ],
+          "peso": 1,
+          "recurso": "roadmap",
+          "semanas": 2,
+          "motivo": "Muchas arquitecturas combinan motores relacionales con caché o documentos."
+        },
+        {
+          "nombre": "Inglés técnico (lectura)",
+          "alias": [
+            "inglés",
+            "ingles",
+            "english"
+          ],
+          "peso": 1,
+          "recurso": "freecodecamp",
+          "semanas": 8,
+          "motivo": "Los manuales oficiales de motores DB están en inglés."
+        }
+      ]
+    },
+    {
+      "id": "pm-scrum-jr",
+      "titulo": "Scrum Master / Project Manager IT Junior",
+      "alias": [
+        "scrum master",
+        "project manager",
+        "pm",
+        "gestion de proyectos",
+        "gestión de proyectos",
+        "agile coach",
+        "product owner"
+      ],
+      "hard_skills": [
+        {
+          "nombre": "Marcos Ágiles (Scrum y Kanban)",
+          "alias": [
+            "scrum",
+            "kanban",
+            "agile",
+            "agil",
+            "ágil",
+            "sprint",
+            "retrospectiva"
+          ],
+          "peso": 3,
+          "recurso": "roadmap",
+          "semanas": 3,
+          "motivo": "Es el marco de trabajo estándar para coordinar equipos de desarrollo."
+        },
+        {
+          "nombre": "Herramientas de Gestión (Jira, Trello, Notion)",
+          "alias": [
+            "jira",
+            "trello",
+            "notion",
+            "asana",
+            "confluence",
+            "tablero"
+          ],
+          "peso": 3,
+          "recurso": "roadmap",
+          "semanas": 2,
+          "motivo": "Permite dar visibilidad al avance, bloqueos y métricas del equipo."
+        },
+        {
+          "nombre": "Métricas Ágiles y Seguimiento",
+          "alias": [
+            "velocidad",
+            "velocity",
+            "burndown",
+            "lead time",
+            "kpis",
+            "excel"
+          ],
+          "peso": 2,
+          "recurso": "mslearn",
+          "semanas": 2,
+          "motivo": "Ayuda a predecir entregas y detectar cuellos de botella."
+        },
+        {
+          "nombre": "Nociones del Ciclo de Vida del Software (SDLC)",
+          "alias": [
+            "sdlc",
+            "desarrollo de software",
+            "git",
+            "qa",
+            "deploy",
+            "api"
+          ],
+          "peso": 2,
+          "recurso": "cs50",
+          "semanas": 3,
+          "motivo": "Entender cómo trabaja el equipo técnico mejora la facilitación."
+        },
+        {
+          "nombre": "Inglés técnico (lectura)",
+          "alias": [
+            "inglés",
+            "ingles",
+            "english"
+          ],
+          "peso": 1,
+          "recurso": "freecodecamp",
+          "semanas": 8,
+          "motivo": "Muchos equipos distribuidos usan terminología y reportes en inglés."
+        }
+      ]
+    }
+  ],
+  "soft_skills": [
+    {
+      "nombre": "Comunicación",
+      "alias": [
+        "comunicacion",
+        "comunicación",
+        "comunicar",
+        "presentaciones",
+        "atencion al cliente",
+        "atención al cliente"
+      ]
+    },
+    {
+      "nombre": "Trabajo en equipo",
+      "alias": [
+        "trabajo en equipo",
+        "equipo",
+        "colaboracion",
+        "colaboración",
+        "colaborativo"
+      ]
+    },
+    {
+      "nombre": "Resolución de problemas",
+      "alias": [
+        "resolucion de problemas",
+        "resolución de problemas",
+        "resolver problemas",
+        "problem solving",
+        "analitico",
+        "analítico"
+      ]
+    },
+    {
+      "nombre": "Aprendizaje continuo",
+      "alias": [
+        "autodidacta",
+        "aprendizaje continuo",
+        "curso",
+        "capacitacion",
+        "capacitación",
+        "bootcamp",
+        "certificacion",
+        "certificación"
+      ]
+    },
+    {
+      "nombre": "Autonomía y organización",
+      "alias": [
+        "autonomia",
+        "autonomía",
+        "organizacion",
+        "organización",
+        "proactivo",
+        "proactiva",
+        "gestion del tiempo",
+        "gestión del tiempo"
+      ]
+    },
+    {
+      "nombre": "Liderazgo",
+      "alias": [
+        "liderazgo",
+        "lidere",
+        "lideré",
+        "coordine",
+        "coordiné",
+        "a cargo de",
+        "supervisor",
+        "supervisora"
+      ]
+    },
+    {
+      "nombre": "Adaptabilidad",
+      "alias": [
+        "adaptabilidad",
+        "flexibilidad",
+        "adaptarme",
+        "cambios"
+      ]
+    }
+  ],
+  "recursos": {
+    "mdn": {
+      "nombre": "MDN Web Docs",
+      "url": "https://developer.mozilla.org",
+      "descripcion": "Documentación y guías gratuitas de HTML, CSS y JavaScript"
+    },
+    "freecodecamp": {
+      "nombre": "freeCodeCamp",
+      "url": "https://www.freecodecamp.org",
+      "descripcion": "Cursos gratuitos con práctica y certificados gratuitos"
+    },
+    "odin": {
+      "nombre": "The Odin Project",
+      "url": "https://www.theodinproject.com",
+      "descripcion": "Ruta gratuita de desarrollo web completa"
+    },
+    "cs50": {
+      "nombre": "CS50 (Harvard)",
+      "url": "https://cs50.harvard.edu",
+      "descripcion": "Curso introductorio gratuito de ciencias de la computación"
+    },
+    "sqlbolt": {
+      "nombre": "SQLBolt",
+      "url": "https://sqlbolt.com",
+      "descripcion": "Lecciones interactivas gratuitas de SQL"
+    },
+    "kaggle": {
+      "nombre": "Kaggle Learn",
+      "url": "https://www.kaggle.com/learn",
+      "descripcion": "Mini cursos gratuitos de Python, pandas, SQL y datos"
+    },
+    "roadmap": {
+      "nombre": "roadmap.sh",
+      "url": "https://roadmap.sh",
+      "descripcion": "Mapas de ruta gratuitos para cada especialidad"
+    },
+    "progit": {
+      "nombre": "Pro Git (libro)",
+      "url": "https://git-scm.com/book",
+      "descripcion": "Libro oficial y gratuito de Git"
+    },
+    "docker": {
+      "nombre": "Docker - Get started",
+      "url": "https://docs.docker.com/get-started/",
+      "descripcion": "Guía oficial gratuita para empezar con Docker"
+    },
+    "typescript": {
+      "nombre": "TypeScript Docs",
+      "url": "https://www.typescriptlang.org/docs/",
+      "descripcion": "Documentación oficial gratuita"
+    },
+    "react": {
+      "nombre": "React - Aprender",
+      "url": "https://react.dev/learn",
+      "descripcion": "Tutorial oficial gratuito de React"
+    },
+    "python": {
+      "nombre": "Tutorial oficial de Python",
+      "url": "https://docs.python.org/es/3/tutorial/",
+      "descripcion": "Tutorial oficial gratuito en español"
+    },
+    "fastapi": {
+      "nombre": "FastAPI - Tutorial",
+      "url": "https://fastapi.tiangolo.com/tutorial/",
+      "descripcion": "Tutorial oficial gratuito para crear APIs"
+    },
+    "mslearn": {
+      "nombre": "Microsoft Learn",
+      "url": "https://learn.microsoft.com/training/",
+      "descripcion": "Rutas de aprendizaje gratuitas (Azure, SQL, Excel, Power BI)"
+    },
+    "awsskill": {
+      "nombre": "AWS Skill Builder",
+      "url": "https://skillbuilder.aws",
+      "descripcion": "Cursos introductorios gratuitos de nube (varios requieren cuenta gratuita)"
+    }
+  }
+}
