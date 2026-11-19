@@ -76,6 +76,33 @@ def test_cv_en_word_con_tabla_marca_problema_ats(client):
     assert any("tablas" in p for p in r.json()["analisis"]["problemas_ats"])
 
 
+def test_cv_en_word_reconocimiento_robusto(client):
+    # Verifica que reconoce Word con extensiones en mayúsculas (.DOCX) y Word clásico (.doc)
+    from database import SessionLocal
+    from models import DocumentoCV
+
+    sid = avanzar_perfil(client)
+    r = client.post("/api/cv", data={"session_id": sid}, files={"file": ("MI_CV.DOCX", hacer_docx(), "application/octet-stream")})
+    assert r.status_code == 200, r.text
+    assert "React" in r.json()["analisis"]["compatibles"]
+    db = SessionLocal()
+    cv = db.query(DocumentoCV).filter_by(id_sesion=sid).first()
+    assert cv.formato == "docx"
+    db.close()
+
+    # Caso Word binario .doc con contenido real
+    sid2 = avanzar_perfil(client)
+    cabecera_ole = b"\xd0\xcf\x11\xe0\xa1\xb1\x1a\xe1" + b"\x00" * 504
+    cuerpo = "Lucía Pérez Desarrolladora Frontend con React, JavaScript y HTML desde 2022 a 2024. Email: lucia@mail.com".encode("utf-16le")
+    r2 = client.post("/api/cv", data={"session_id": sid2}, files={"file": ("curriculum.doc", cabecera_ole + cuerpo + b"\x00" * 100, "application/msword")})
+    assert r2.status_code == 200, r2.text
+    assert "React" in r2.json()["analisis"]["compatibles"]
+    db = SessionLocal()
+    cv2 = db.query(DocumentoCV).filter_by(id_sesion=sid2).first()
+    assert cv2.formato == "doc"
+    db.close()
+
+
 def test_puesto_no_reconocido_no_avanza(client):
     sid = client.post("/api/sesion").json()["session_id"]
     r = client.post("/api/chat", json={"session_id": sid, "message": "Quiero ser panadero"}).json()

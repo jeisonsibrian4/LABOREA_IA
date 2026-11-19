@@ -157,7 +157,7 @@ export default function App() {
   const ir = (v: Vista) => { setVista(v); setMenu(false) }
   const comunes = { onNueva: () => void empezar(), onUsuario: () => setMenu(!menu) }
   const inputArchivo = (
-    <input ref={archivo} type="file" hidden accept=".pdf,.docx,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document" onChange={e => void elegirCV(e.target.files?.[0])} />
+    <input ref={archivo} type="file" hidden accept=".pdf,.docx,.doc,application/pdf,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document" onChange={e => void elegirCV(e.target.files?.[0])} />
   )
   const puedeAdjuntar = estado !== 'perfilamiento'
   const portada = mensajes.length <= 1 && !analisis
@@ -251,7 +251,7 @@ export default function App() {
             <span className="nube"><Icono n="nube" tam={64} trazo={1.5} /></span>
             <b>{cargando ? 'Analizando tu CV…' : 'Arrastrá tu CV aquí'}</b>
             <span className="link">o seleccioná un archivo</span>
-            <small>Formatos aceptados: PDF, DOCX · Máx. 5 MB</small>
+            <small>Formatos aceptados: PDF, Word (DOCX, DOC) · Máx. 5 MB</small>
           </div>
           {error && <div className="error" role="alert">{error}</div>}
           <div className="tarjeta">
