@@ -222,10 +222,11 @@ def ver_enlaces(session_id: str, db: Session = Depends(get_db), orq: Orquestador
         raise HTTPException(status_code=404, detail="Todavía no hay un análisis. Subí tu CV primero.")
     vistos, enlaces = set(), []
     for p in resultado["plan_estudio_json"]:
-        r = p.get("recurso")
-        if r and r["url"] not in vistos:
-            vistos.add(r["url"])
-            enlaces.append({**r, "para": p["habilidad"]})
+        recs = p.get("recursos") or ([p["recurso"]] if p.get("recurso") else [])
+        for r in recs:
+            if r and (r["nombre"], r["url"]) not in vistos:
+                vistos.add((r["nombre"], r["url"]))
+                enlaces.append({**r, "para": p["habilidad"]})
     return {"enlaces": enlaces}
 
 

@@ -27,7 +27,11 @@
           "peso": 3,
           "recurso": "mdn",
           "semanas": 3,
-          "motivo": "Es la base de cualquier interfaz web."
+          "motivo": "Es la base de cualquier interfaz web.",
+          "recursos": [
+            "mdn",
+            "aprende_frontend"
+          ]
         },
         {
           "nombre": "JavaScript",
@@ -40,7 +44,11 @@
           "peso": 3,
           "recurso": "mdn",
           "semanas": 6,
-          "motivo": "Es el lenguaje que piden casi todas las ofertas web."
+          "motivo": "Es el lenguaje que piden casi todas las ofertas web.",
+          "recursos": [
+            "mdn",
+            "aprende_frontend"
+          ]
         },
         {
           "nombre": "Git y GitHub",
@@ -53,7 +61,10 @@
           "peso": 2,
           "recurso": "progit",
           "semanas": 2,
-          "motivo": "Los equipos trabajan con control de versiones desde el día uno."
+          "motivo": "Los equipos trabajan con control de versiones desde el día uno.",
+          "recursos": [
+            "progit"
+          ]
         },
         {
           "nombre": "React",
@@ -65,7 +76,11 @@
           "peso": 3,
           "recurso": "react",
           "semanas": 5,
-          "motivo": "Es la librería de interfaces más pedida en ofertas junior."
+          "motivo": "Es la librería de interfaces más pedida en ofertas junior.",
+          "recursos": [
+            "react",
+            "aprende_web_movil"
+          ]
         },
         {
           "nombre": "TypeScript",
@@ -76,7 +91,11 @@
           "peso": 2,
           "recurso": "typescript",
           "semanas": 3,
-          "motivo": "Cada vez más equipos lo exigen sobre JavaScript."
+          "motivo": "Cada vez más equipos lo exigen sobre JavaScript.",
+          "recursos": [
+            "typescript",
+            "aprende_frontend"
+          ]
         },
         {
           "nombre": "Diseño responsivo",
@@ -90,7 +109,11 @@
           "peso": 2,
           "recurso": "mdn",
           "semanas": 2,
-          "motivo": "Las interfaces tienen que funcionar en celular y en computadora."
+          "motivo": "Las interfaces tienen que funcionar en celular y en computadora.",
+          "recursos": [
+            "mdn",
+            "aprende_frontend"
+          ]
         },
         {
           "nombre": "Consumo de APIs REST",
@@ -104,7 +127,11 @@
           "peso": 2,
           "recurso": "mdn",
           "semanas": 2,
-          "motivo": "El frontend se conecta con servicios del backend."
+          "motivo": "El frontend se conecta con servicios del backend.",
+          "recursos": [
+            "mdn",
+            "aprende_web_movil"
+          ]
         },
         {
           "nombre": "Inglés técnico (lectura)",
@@ -116,7 +143,10 @@
           "peso": 1,
           "recurso": "freecodecamp",
           "semanas": 8,
-          "motivo": "La documentación y muchas ofertas están en inglés."
+          "motivo": "La documentación y muchas ofertas están en inglés.",
+          "recursos": [
+            "freecodecamp"
+          ]
         }
       ]
     },
@@ -150,7 +180,12 @@
           "peso": 3,
           "recurso": "python",
           "semanas": 8,
-          "motivo": "Necesitás dominar al menos un lenguaje para construir la lógica del servidor."
+          "motivo": "Necesitás dominar al menos un lenguaje para construir la lógica del servidor.",
+          "recursos": [
+            "python",
+            "mooc_python",
+            "aprende_csharp"
+          ]
         },
         {
           "nombre": "APIs REST",
@@ -167,7 +202,11 @@
           "peso": 3,
           "recurso": "fastapi",
           "semanas": 4,
-          "motivo": "Es la forma estándar en que el backend se comunica con otras apps."
+          "motivo": "Es la forma estándar en que el backend se comunica con otras apps.",
+          "recursos": [
+            "fastapi",
+            "aprende_web_movil"
+          ]
         },
         {
           "nombre": "SQL",
@@ -182,7 +221,12 @@
           "peso": 3,
           "recurso": "sqlbolt",
           "semanas": 3,
-          "motivo": "Casi todas las aplicaciones guardan datos en bases relacionales."
+          "motivo": "Casi todas las aplicaciones guardan datos en bases relacionales.",
+          "recursos": [
+            "sqlbolt",
+            "mooc_dba",
+            "aprende_tratamiento_datos"
+          ]
         },
         {
           "nombre": "Git y GitHub",
@@ -195,7 +239,10 @@
           "peso": 2,
           "recurso": "progit",
           "semanas": 2,
-          "motivo": "Los equipos trabajan con control de versiones desde el día uno."
+          "motivo": "Los equipos trabajan con control de versiones desde el día uno.",
+          "recursos": [
+            "progit"
+          ]
         },
         {
           "nombre": "Docker",
@@ -207,7 +254,11 @@
           "peso": 2,
           "recurso": "docker",
           "semanas": 2,
-          "motivo": "Se usa para que la app corra igual en cualquier computadora."
+          "motivo": "Se usa para que la app corra igual en cualquier computadora.",
+          "recursos": [
+            "docker",
+            "mooc_cloud_devops"
+          ]
         },
         {
           "nombre": "Autenticación y seguridad básica",
@@ -221,7 +272,12 @@
           "peso": 2,
           "recurso": "roadmap",
           "semanas": 3,
-          "motivo": "Proteger datos de usuarios es un requisito en cualquier producto."
+          "motivo": "Proteger datos de usuarios es un requisito en cualquier producto.",
+          "recursos": [
+            "roadmap",
+            "aprende_seguridad",
+            "mooc_cybersecurity"
+          ]
         },
         {
           "nombre": "Testing",
@@ -236,7 +292,10 @@
           "peso": 1,
           "recurso": "roadmap",
           "semanas": 2,
-          "motivo": "Probar el código evita errores en producción."
+          "motivo": "Probar el código evita errores en producción.",
+          "recursos": [
+            "roadmap"
+          ]
         },
         {
           "nombre": "Inglés técnico (lectura)",
@@ -248,7 +307,10 @@
           "peso": 1,
           "recurso": "freecodecamp",
           "semanas": 8,
-          "motivo": "La documentación y muchas ofertas están en inglés."
+          "motivo": "La documentación y muchas ofertas están en inglés.",
+          "recursos": [
+            "freecodecamp"
+          ]
         }
       ]
     },
@@ -278,7 +340,11 @@
           "peso": 3,
           "recurso": "mdn",
           "semanas": 3,
-          "motivo": "Es la base de cualquier interfaz web."
+          "motivo": "Es la base de cualquier interfaz web.",
+          "recursos": [
+            "mdn",
+            "aprende_frontend"
+          ]
         },
         {
           "nombre": "JavaScript",
@@ -291,7 +357,11 @@
           "peso": 3,
           "recurso": "mdn",
           "semanas": 6,
-          "motivo": "Es el lenguaje que piden casi todas las ofertas web."
+          "motivo": "Es el lenguaje que piden casi todas las ofertas web.",
+          "recursos": [
+            "mdn",
+            "aprende_frontend"
+          ]
         },
         {
           "nombre": "Git y GitHub",
@@ -304,7 +374,10 @@
           "peso": 2,
           "recurso": "progit",
           "semanas": 2,
-          "motivo": "Los equipos trabajan con control de versiones desde el día uno."
+          "motivo": "Los equipos trabajan con control de versiones desde el día uno.",
+          "recursos": [
+            "progit"
+          ]
         },
         {
           "nombre": "React",
@@ -316,7 +389,11 @@
           "peso": 3,
           "recurso": "react",
           "semanas": 5,
-          "motivo": "Es la librería de interfaces más pedida en ofertas junior."
+          "motivo": "Es la librería de interfaces más pedida en ofertas junior.",
+          "recursos": [
+            "react",
+            "aprende_web_movil"
+          ]
         },
         {
           "nombre": "TypeScript",
@@ -327,7 +404,11 @@
           "peso": 3,
           "recurso": "typescript",
           "semanas": 3,
-          "motivo": "Aparece en la mayoría de los stacks modernos."
+          "motivo": "Aparece en la mayoría de los stacks modernos.",
+          "recursos": [
+            "typescript",
+            "aprende_frontend"
+          ]
         },
         {
           "nombre": "Un lenguaje de backend (Node.js, Python o Java)",
@@ -343,7 +424,12 @@
           "peso": 3,
           "recurso": "python",
           "semanas": 8,
-          "motivo": "El fullstack también construye la lógica del servidor."
+          "motivo": "El fullstack también construye la lógica del servidor.",
+          "recursos": [
+            "python",
+            "mooc_python",
+            "aprende_csharp"
+          ]
         },
         {
           "nombre": "SQL",
@@ -358,7 +444,12 @@
           "peso": 3,
           "recurso": "sqlbolt",
           "semanas": 3,
-          "motivo": "Casi todas las aplicaciones guardan datos en bases relacionales."
+          "motivo": "Casi todas las aplicaciones guardan datos en bases relacionales.",
+          "recursos": [
+            "sqlbolt",
+            "mooc_dba",
+            "aprende_tratamiento_datos"
+          ]
         },
         {
           "nombre": "Docker",
@@ -370,7 +461,11 @@
           "peso": 2,
           "recurso": "docker",
           "semanas": 2,
-          "motivo": "Se usa para que la app corra igual en cualquier computadora."
+          "motivo": "Se usa para que la app corra igual en cualquier computadora.",
+          "recursos": [
+            "docker",
+            "mooc_cloud_devops"
+          ]
         },
         {
           "nombre": "Nociones de nube (Cloud)",
@@ -385,7 +480,12 @@
           "peso": 2,
           "recurso": "awsskill",
           "semanas": 3,
-          "motivo": "Los proyectos se publican en servicios de nube."
+          "motivo": "Los proyectos se publican en servicios de nube.",
+          "recursos": [
+            "awsskill",
+            "mooc_cloud_devops",
+            "aprende_cloud"
+          ]
         },
         {
           "nombre": "Inglés técnico (lectura)",
@@ -397,7 +497,10 @@
           "peso": 1,
           "recurso": "freecodecamp",
           "semanas": 8,
-          "motivo": "La documentación y muchas ofertas están en inglés."
+          "motivo": "La documentación y muchas ofertas están en inglés.",
+          "recursos": [
+            "freecodecamp"
+          ]
         }
       ]
     },
@@ -429,7 +532,12 @@
           "peso": 3,
           "recurso": "sqlbolt",
           "semanas": 3,
-          "motivo": "Casi todas las aplicaciones guardan datos en bases relacionales."
+          "motivo": "Casi todas las aplicaciones guardan datos en bases relacionales.",
+          "recursos": [
+            "sqlbolt",
+            "mooc_dba",
+            "aprende_tratamiento_datos"
+          ]
         },
         {
           "nombre": "Python para datos (pandas)",
@@ -442,7 +550,12 @@
           "peso": 3,
           "recurso": "kaggle",
           "semanas": 6,
-          "motivo": "Es la herramienta principal para limpiar y analizar datos."
+          "motivo": "Es la herramienta principal para limpiar y analizar datos.",
+          "recursos": [
+            "kaggle",
+            "mooc_r_datos",
+            "aprende_recopilacion_datos"
+          ]
         },
         {
           "nombre": "Excel avanzado",
@@ -455,7 +568,12 @@
           "peso": 2,
           "recurso": "mslearn",
           "semanas": 3,
-          "motivo": "Muchas empresas todavía trabajan sus reportes en Excel."
+          "motivo": "Muchas empresas todavía trabajan sus reportes en Excel.",
+          "recursos": [
+            "mslearn",
+            "mooc_excel_analytics",
+            "aprende_ofimatica"
+          ]
         },
         {
           "nombre": "Visualización de datos (Power BI o Tableau)",
@@ -470,7 +588,12 @@
           "peso": 3,
           "recurso": "mslearn",
           "semanas": 4,
-          "motivo": "Hay que comunicar los hallazgos con gráficos claros."
+          "motivo": "Hay que comunicar los hallazgos con gráficos claros.",
+          "recursos": [
+            "mslearn",
+            "mooc_powerbi",
+            "aprende_integrador_bi"
+          ]
         },
         {
           "nombre": "Estadística básica",
@@ -486,7 +609,12 @@
           "peso": 3,
           "recurso": "kaggle",
           "semanas": 5,
-          "motivo": "Sin estadística no se pueden sacar conclusiones confiables."
+          "motivo": "Sin estadística no se pueden sacar conclusiones confiables.",
+          "recursos": [
+            "kaggle",
+            "mooc_r_datos",
+            "aprende_analisis_informacion"
+          ]
         },
         {
           "nombre": "Git y GitHub",
@@ -499,7 +627,10 @@
           "peso": 1,
           "recurso": "progit",
           "semanas": 2,
-          "motivo": "Sirve para versionar análisis y mostrar tu portfolio."
+          "motivo": "Sirve para versionar análisis y mostrar tu portfolio.",
+          "recursos": [
+            "progit"
+          ]
         },
         {
           "nombre": "Inglés técnico (lectura)",
@@ -511,7 +642,10 @@
           "peso": 1,
           "recurso": "freecodecamp",
           "semanas": 8,
-          "motivo": "La documentación y muchas ofertas están en inglés."
+          "motivo": "La documentación y muchas ofertas están en inglés.",
+          "recursos": [
+            "freecodecamp"
+          ]
         }
       ]
     },
@@ -540,7 +674,10 @@
           "peso": 3,
           "recurso": "roadmap",
           "semanas": 3,
-          "motivo": "Es la tarea central de un tester."
+          "motivo": "Es la tarea central de un tester.",
+          "recursos": [
+            "roadmap"
+          ]
         },
         {
           "nombre": "Reporte de errores (bugs)",
@@ -554,7 +691,10 @@
           "peso": 2,
           "recurso": "roadmap",
           "semanas": 2,
-          "motivo": "Hay que documentar los errores de forma clara y reproducible."
+          "motivo": "Hay que documentar los errores de forma clara y reproducible.",
+          "recursos": [
+            "roadmap"
+          ]
         },
         {
           "nombre": "SQL",
@@ -569,7 +709,12 @@
           "peso": 3,
           "recurso": "sqlbolt",
           "semanas": 3,
-          "motivo": "Casi todas las aplicaciones guardan datos en bases relacionales."
+          "motivo": "Casi todas las aplicaciones guardan datos en bases relacionales.",
+          "recursos": [
+            "sqlbolt",
+            "mooc_dba",
+            "aprende_tratamiento_datos"
+          ]
         },
         {
           "nombre": "Pruebas de APIs",
@@ -582,7 +727,10 @@
           "peso": 2,
           "recurso": "roadmap",
           "semanas": 2,
-          "motivo": "Muchas pruebas se hacen directamente sobre servicios."
+          "motivo": "Muchas pruebas se hacen directamente sobre servicios.",
+          "recursos": [
+            "roadmap"
+          ]
         },
         {
           "nombre": "Automatización de pruebas",
@@ -596,7 +744,10 @@
           "peso": 2,
           "recurso": "roadmap",
           "semanas": 6,
-          "motivo": "Suma mucho para pasar de manual a automatizado."
+          "motivo": "Suma mucho para pasar de manual a automatizado.",
+          "recursos": [
+            "roadmap"
+          ]
         },
         {
           "nombre": "Metodologías ágiles",
@@ -610,7 +761,10 @@
           "peso": 2,
           "recurso": "roadmap",
           "semanas": 1,
-          "motivo": "Casi todos los equipos de software trabajan en ciclos ágiles."
+          "motivo": "Casi todos los equipos de software trabajan en ciclos ágiles.",
+          "recursos": [
+            "roadmap"
+          ]
         },
         {
           "nombre": "Inglés técnico (lectura)",
@@ -622,7 +776,10 @@
           "peso": 1,
           "recurso": "freecodecamp",
           "semanas": 8,
-          "motivo": "La documentación y muchas ofertas están en inglés."
+          "motivo": "La documentación y muchas ofertas están en inglés.",
+          "recursos": [
+            "freecodecamp"
+          ]
         }
       ]
     },
@@ -653,7 +810,12 @@
           "peso": 3,
           "recurso": "mslearn",
           "semanas": 4,
-          "motivo": "La mayoría de los tickets son de configuración y fallas del sistema."
+          "motivo": "La mayoría de los tickets son de configuración y fallas del sistema.",
+          "recursos": [
+            "mslearn",
+            "mooc_linux",
+            "aprende_sistemas_informaticos"
+          ]
         },
         {
           "nombre": "Redes básicas",
@@ -669,7 +831,11 @@
           "peso": 3,
           "recurso": "mslearn",
           "semanas": 4,
-          "motivo": "Muchos problemas son de conectividad."
+          "motivo": "Muchos problemas son de conectividad.",
+          "recursos": [
+            "mslearn",
+            "aprende_redes"
+          ]
         },
         {
           "nombre": "Sistema de tickets",
@@ -684,7 +850,10 @@
           "peso": 2,
           "recurso": "roadmap",
           "semanas": 1,
-          "motivo": "Se registra y prioriza cada pedido de los usuarios."
+          "motivo": "Se registra y prioriza cada pedido de los usuarios.",
+          "recursos": [
+            "roadmap"
+          ]
         },
         {
           "nombre": "Hardware y diagnóstico",
@@ -700,7 +869,11 @@
           "peso": 2,
           "recurso": "mslearn",
           "semanas": 3,
-          "motivo": "Hay que resolver fallas físicas de equipos."
+          "motivo": "Hay que resolver fallas físicas de equipos.",
+          "recursos": [
+            "mslearn",
+            "aprende_sistemas_informaticos"
+          ]
         },
         {
           "nombre": "Office 365 / Google Workspace",
@@ -714,7 +887,11 @@
           "peso": 1,
           "recurso": "mslearn",
           "semanas": 1,
-          "motivo": "Son las herramientas de trabajo de casi toda empresa."
+          "motivo": "Son las herramientas de trabajo de casi toda empresa.",
+          "recursos": [
+            "mslearn",
+            "aprende_ofimatica"
+          ]
         },
         {
           "nombre": "Inglés técnico (lectura)",
@@ -726,7 +903,10 @@
           "peso": 1,
           "recurso": "freecodecamp",
           "semanas": 8,
-          "motivo": "La documentación y muchas ofertas están en inglés."
+          "motivo": "La documentación y muchas ofertas están en inglés.",
+          "recursos": [
+            "freecodecamp"
+          ]
         }
       ]
     },
@@ -756,7 +936,12 @@
           "peso": 3,
           "recurso": "sqlbolt",
           "semanas": 4,
-          "motivo": "Es fundamental para consultar, transformar y modelar datos en almacenes."
+          "motivo": "Es fundamental para consultar, transformar y modelar datos en almacenes.",
+          "recursos": [
+            "sqlbolt",
+            "mooc_dba",
+            "aprende_big_data"
+          ]
         },
         {
           "nombre": "Python para ingeniería de datos",
@@ -769,7 +954,11 @@
           "peso": 3,
           "recurso": "python",
           "semanas": 6,
-          "motivo": "Se usa para construir procesos de extracción y transformación (ETL)."
+          "motivo": "Se usa para construir procesos de extracción y transformación (ETL).",
+          "recursos": [
+            "python",
+            "mooc_spark_ml"
+          ]
         },
         {
           "nombre": "Procesos ETL y Orquestación",
@@ -784,7 +973,12 @@
           "peso": 3,
           "recurso": "roadmap",
           "semanas": 4,
-          "motivo": "Automatiza la ingesta y limpieza periódica de datos."
+          "motivo": "Automatiza la ingesta y limpieza periódica de datos.",
+          "recursos": [
+            "roadmap",
+            "mooc_etl_kafka_airflow",
+            "aprende_big_data"
+          ]
         },
         {
           "nombre": "Nociones de nube (Cloud Data)",
@@ -800,7 +994,12 @@
           "peso": 2,
           "recurso": "awsskill",
           "semanas": 3,
-          "motivo": "La mayoría de los Data Lakes y Data Warehouses viven en la nube."
+          "motivo": "La mayoría de los Data Lakes y Data Warehouses viven en la nube.",
+          "recursos": [
+            "awsskill",
+            "mooc_cloud_devops",
+            "aprende_cloud"
+          ]
         },
         {
           "nombre": "Docker y Linux",
@@ -813,7 +1012,11 @@
           "peso": 2,
           "recurso": "docker",
           "semanas": 2,
-          "motivo": "Los pipelines suelen ejecutarse en entornos Linux contenedorizados."
+          "motivo": "Los pipelines suelen ejecutarse en entornos Linux contenedorizados.",
+          "recursos": [
+            "docker",
+            "mooc_cloud_devops"
+          ]
         },
         {
           "nombre": "Git y GitHub",
@@ -826,7 +1029,10 @@
           "peso": 2,
           "recurso": "progit",
           "semanas": 2,
-          "motivo": "Permite versionar código de transformación y colaborar en equipo."
+          "motivo": "Permite versionar código de transformación y colaborar en equipo.",
+          "recursos": [
+            "progit"
+          ]
         },
         {
           "nombre": "Inglés técnico (lectura)",
@@ -838,7 +1044,10 @@
           "peso": 1,
           "recurso": "freecodecamp",
           "semanas": 8,
-          "motivo": "La documentación de herramientas de datos está en inglés."
+          "motivo": "La documentación de herramientas de datos está en inglés.",
+          "recursos": [
+            "freecodecamp"
+          ]
         }
       ]
     },
@@ -867,7 +1076,10 @@
           "peso": 3,
           "recurso": "kaggle",
           "semanas": 6,
-          "motivo": "Es el ecosistema estándar para exploración y modelado de datos."
+          "motivo": "Es el ecosistema estándar para exploración y modelado de datos.",
+          "recursos": [
+            "kaggle"
+          ]
         },
         {
           "nombre": "Machine Learning (Scikit-learn)",
@@ -882,7 +1094,12 @@
           "peso": 3,
           "recurso": "kaggle",
           "semanas": 6,
-          "motivo": "Permite entrenar y evaluar algoritmos supervisados y no supervisados."
+          "motivo": "Permite entrenar y evaluar algoritmos supervisados y no supervisados.",
+          "recursos": [
+            "kaggle",
+            "mooc_scikit_learn",
+            "aprende_ia_fundamentos"
+          ]
         },
         {
           "nombre": "Estadística y Probabilidad",
@@ -897,7 +1114,12 @@
           "peso": 3,
           "recurso": "kaggle",
           "semanas": 5,
-          "motivo": "Sustenta la validación matemática de los modelos y experimentos."
+          "motivo": "Sustenta la validación matemática de los modelos y experimentos.",
+          "recursos": [
+            "kaggle",
+            "mooc_r_datos",
+            "aprende_analisis_informacion"
+          ]
         },
         {
           "nombre": "SQL",
@@ -911,7 +1133,12 @@
           "peso": 2,
           "recurso": "sqlbolt",
           "semanas": 3,
-          "motivo": "Necesario para extraer los datasets directamente desde las bases."
+          "motivo": "Necesario para extraer los datasets directamente desde las bases.",
+          "recursos": [
+            "sqlbolt",
+            "mooc_dba",
+            "aprende_tratamiento_datos"
+          ]
         },
         {
           "nombre": "Visualización y Storytelling de datos",
@@ -925,7 +1152,12 @@
           "peso": 2,
           "recurso": "kaggle",
           "semanas": 2,
-          "motivo": "Comunica métricas y resultados de modelos a perfiles no técnicos."
+          "motivo": "Comunica métricas y resultados de modelos a perfiles no técnicos.",
+          "recursos": [
+            "kaggle",
+            "mooc_powerbi",
+            "aprende_integrador_bi"
+          ]
         },
         {
           "nombre": "Git y GitHub",
@@ -938,7 +1170,10 @@
           "peso": 2,
           "recurso": "progit",
           "semanas": 2,
-          "motivo": "Sirve para versionar notebooks, scripts y experimentos."
+          "motivo": "Sirve para versionar notebooks, scripts y experimentos.",
+          "recursos": [
+            "progit"
+          ]
         },
         {
           "nombre": "Inglés técnico (lectura)",
@@ -950,7 +1185,10 @@
           "peso": 1,
           "recurso": "freecodecamp",
           "semanas": 8,
-          "motivo": "Los papers y librerías de IA/ML se publican en inglés."
+          "motivo": "Los papers y librerías de IA/ML se publican en inglés.",
+          "recursos": [
+            "freecodecamp"
+          ]
         }
       ]
     },
@@ -980,7 +1218,11 @@
           "peso": 3,
           "recurso": "fastapi",
           "semanas": 5,
-          "motivo": "Es el lenguaje base para integrar modelos de lenguaje en aplicaciones."
+          "motivo": "Es el lenguaje base para integrar modelos de lenguaje en aplicaciones.",
+          "recursos": [
+            "fastapi",
+            "mooc_python"
+          ]
         },
         {
           "nombre": "Consumo de APIs de LLMs y Prompt Engineering",
@@ -996,7 +1238,12 @@
           "peso": 3,
           "recurso": "roadmap",
           "semanas": 4,
-          "motivo": "Permite estructurar salidas, controlar alucinaciones y encadenar tareas."
+          "motivo": "Permite estructurar salidas, controlar alucinaciones y encadenar tareas.",
+          "recursos": [
+            "roadmap",
+            "aprende_ia_prompt",
+            "mooc_prompt_engineering"
+          ]
         },
         {
           "nombre": "Embeddings y Recuperación (RAG)",
@@ -1012,7 +1259,11 @@
           "peso": 3,
           "recurso": "roadmap",
           "semanas": 4,
-          "motivo": "Conecta los modelos con bases de conocimiento propias del negocio."
+          "motivo": "Conecta los modelos con bases de conocimiento propias del negocio.",
+          "recursos": [
+            "roadmap",
+            "aprende_ia_fundamentos"
+          ]
         },
         {
           "nombre": "SQL y Bases de Datos",
@@ -1026,7 +1277,12 @@
           "peso": 2,
           "recurso": "sqlbolt",
           "semanas": 3,
-          "motivo": "Se necesita para guardar historial, métricas y metadatos."
+          "motivo": "Se necesita para guardar historial, métricas y metadatos.",
+          "recursos": [
+            "sqlbolt",
+            "mooc_dba",
+            "aprende_tratamiento_datos"
+          ]
         },
         {
           "nombre": "Docker y Git",
@@ -1039,7 +1295,11 @@
           "peso": 2,
           "recurso": "docker",
           "semanas": 2,
-          "motivo": "Facilita el despliegue reproducible de microservicios de IA."
+          "motivo": "Facilita el despliegue reproducible de microservicios de IA.",
+          "recursos": [
+            "docker",
+            "mooc_cloud_devops"
+          ]
         },
         {
           "nombre": "Inglés técnico (lectura)",
@@ -1051,7 +1311,10 @@
           "peso": 2,
           "recurso": "freecodecamp",
           "semanas": 8,
-          "motivo": "Todas las novedades y SDKs de IA salen primero en inglés."
+          "motivo": "Todas las novedades y SDKs de IA salen primero en inglés.",
+          "recursos": [
+            "freecodecamp"
+          ]
         }
       ]
     },
@@ -1081,7 +1344,11 @@
           "peso": 3,
           "recurso": "roadmap",
           "semanas": 4,
-          "motivo": "La inmensa mayoría de los servidores en la nube corren sobre Linux."
+          "motivo": "La inmensa mayoría de los servidores en la nube corren sobre Linux.",
+          "recursos": [
+            "roadmap",
+            "mooc_linux"
+          ]
         },
         {
           "nombre": "Docker y Contenedores",
@@ -1095,7 +1362,11 @@
           "peso": 3,
           "recurso": "docker",
           "semanas": 4,
-          "motivo": "Es la unidad estándar de empaquetado y despliegue moderno."
+          "motivo": "Es la unidad estándar de empaquetado y despliegue moderno.",
+          "recursos": [
+            "docker",
+            "mooc_cloud_devops"
+          ]
         },
         {
           "nombre": "Pipelines CI/CD",
@@ -1109,7 +1380,10 @@
           "peso": 3,
           "recurso": "roadmap",
           "semanas": 3,
-          "motivo": "Automatiza las pruebas y la puesta en producción del código."
+          "motivo": "Automatiza las pruebas y la puesta en producción del código.",
+          "recursos": [
+            "roadmap"
+          ]
         },
         {
           "nombre": "Nube (AWS, Azure o GCP)",
@@ -1125,7 +1399,12 @@
           "peso": 3,
           "recurso": "awsskill",
           "semanas": 5,
-          "motivo": "Gestionar redes, cómputo y permisos en la nube es el corazón del rol."
+          "motivo": "Gestionar redes, cómputo y permisos en la nube es el corazón del rol.",
+          "recursos": [
+            "awsskill",
+            "mooc_cloud_devops",
+            "aprende_cloud"
+          ]
         },
         {
           "nombre": "Git y Control de Versiones",
@@ -1137,7 +1416,10 @@
           "peso": 2,
           "recurso": "progit",
           "semanas": 2,
-          "motivo": "Todo el código de infraestructura y pipelines se gestiona en Git."
+          "motivo": "Todo el código de infraestructura y pipelines se gestiona en Git.",
+          "recursos": [
+            "progit"
+          ]
         },
         {
           "nombre": "Redes y Seguridad básica",
@@ -1153,7 +1435,12 @@
           "peso": 2,
           "recurso": "roadmap",
           "semanas": 3,
-          "motivo": "Indispensable para configurar dominios, certificados y accesos seguros."
+          "motivo": "Indispensable para configurar dominios, certificados y accesos seguros.",
+          "recursos": [
+            "roadmap",
+            "aprende_seguridad",
+            "mooc_cybersecurity"
+          ]
         },
         {
           "nombre": "Inglés técnico (lectura)",
@@ -1165,7 +1452,10 @@
           "peso": 1,
           "recurso": "freecodecamp",
           "semanas": 8,
-          "motivo": "Las consolas cloud y documentaciones están en inglés."
+          "motivo": "Las consolas cloud y documentaciones están en inglés.",
+          "recursos": [
+            "freecodecamp"
+          ]
         }
       ]
     },
@@ -1196,7 +1486,11 @@
           "peso": 3,
           "recurso": "roadmap",
           "semanas": 4,
-          "motivo": "Para detectar tráfico anómalo primero hay que entender cómo viajan los datos."
+          "motivo": "Para detectar tráfico anómalo primero hay que entender cómo viajan los datos.",
+          "recursos": [
+            "roadmap",
+            "aprende_redes"
+          ]
         },
         {
           "nombre": "Sistemas Operativos (Linux y Windows)",
@@ -1210,7 +1504,12 @@
           "peso": 3,
           "recurso": "mslearn",
           "semanas": 4,
-          "motivo": "El análisis de registros y permisos ocurre sobre estos sistemas."
+          "motivo": "El análisis de registros y permisos ocurre sobre estos sistemas.",
+          "recursos": [
+            "mslearn",
+            "mooc_linux",
+            "aprende_sistemas_informaticos"
+          ]
         },
         {
           "nombre": "Fundamentos de Seguridad y OWASP",
@@ -1225,7 +1524,12 @@
           "peso": 3,
           "recurso": "roadmap",
           "semanas": 4,
-          "motivo": "Permite identificar vectores de ataque comunes y clasificar alertas."
+          "motivo": "Permite identificar vectores de ataque comunes y clasificar alertas.",
+          "recursos": [
+            "roadmap",
+            "aprende_seguridad",
+            "mooc_cybersecurity"
+          ]
         },
         {
           "nombre": "Scripting básico (Python o Bash)",
@@ -1238,7 +1542,11 @@
           "peso": 2,
           "recurso": "python",
           "semanas": 3,
-          "motivo": "Ayuda a automatizar el análisis de logs y tareas repetitivas."
+          "motivo": "Ayuda a automatizar el análisis de logs y tareas repetitivas.",
+          "recursos": [
+            "python",
+            "mooc_linux"
+          ]
         },
         {
           "nombre": "Inglés técnico (lectura)",
@@ -1250,7 +1558,10 @@
           "peso": 2,
           "recurso": "freecodecamp",
           "semanas": 8,
-          "motivo": "Los reportes de amenazas (CVE) y herramientas están en inglés."
+          "motivo": "Los reportes de amenazas (CVE) y herramientas están en inglés.",
+          "recursos": [
+            "freecodecamp"
+          ]
         }
       ]
     },
@@ -1282,7 +1593,11 @@
           "peso": 3,
           "recurso": "roadmap",
           "semanas": 6,
-          "motivo": "Es la tecnología principal para construir interfaces en celulares."
+          "motivo": "Es la tecnología principal para construir interfaces en celulares.",
+          "recursos": [
+            "roadmap",
+            "aprende_movil"
+          ]
         },
         {
           "nombre": "JavaScript / TypeScript o Dart / Kotlin",
@@ -1296,7 +1611,11 @@
           "peso": 3,
           "recurso": "typescript",
           "semanas": 5,
-          "motivo": "El lenguaje base sobre el que corre la lógica de la app móvil."
+          "motivo": "El lenguaje base sobre el que corre la lógica de la app móvil.",
+          "recursos": [
+            "typescript",
+            "aprende_frontend"
+          ]
         },
         {
           "nombre": "Consumo de APIs REST y Almacenamiento Local",
@@ -1311,7 +1630,11 @@
           "peso": 3,
           "recurso": "mdn",
           "semanas": 3,
-          "motivo": "Las apps necesitan sincronizar datos con servidores y guardar caché."
+          "motivo": "Las apps necesitan sincronizar datos con servidores y guardar caché.",
+          "recursos": [
+            "mdn",
+            "aprende_web_movil"
+          ]
         },
         {
           "nombre": "Git y GitHub",
@@ -1324,7 +1647,10 @@
           "peso": 2,
           "recurso": "progit",
           "semanas": 2,
-          "motivo": "Indispensable para trabajar en equipo y manejar versiones de la app."
+          "motivo": "Indispensable para trabajar en equipo y manejar versiones de la app.",
+          "recursos": [
+            "progit"
+          ]
         },
         {
           "nombre": "Diseño de interfaces móviles (UI/UX básico)",
@@ -1338,7 +1664,10 @@
           "peso": 2,
           "recurso": "roadmap",
           "semanas": 2,
-          "motivo": "Las pantallas táctiles tienen reglas propias de usabilidad."
+          "motivo": "Las pantallas táctiles tienen reglas propias de usabilidad.",
+          "recursos": [
+            "roadmap"
+          ]
         },
         {
           "nombre": "Inglés técnico (lectura)",
@@ -1350,7 +1679,10 @@
           "peso": 1,
           "recurso": "freecodecamp",
           "semanas": 8,
-          "motivo": "Las guías de Google Play y App Store están en inglés."
+          "motivo": "Las guías de Google Play y App Store están en inglés.",
+          "recursos": [
+            "freecodecamp"
+          ]
         }
       ]
     },
@@ -1380,7 +1712,10 @@
           "peso": 3,
           "recurso": "roadmap",
           "semanas": 4,
-          "motivo": "Es la herramienta estándar de la industria para diseñar interfaces."
+          "motivo": "Es la herramienta estándar de la industria para diseñar interfaces.",
+          "recursos": [
+            "roadmap"
+          ]
         },
         {
           "nombre": "Investigación con Usuarios (UX Research)",
@@ -1394,7 +1729,10 @@
           "peso": 3,
           "recurso": "roadmap",
           "semanas": 4,
-          "motivo": "Permite diseñar soluciones basadas en necesidades reales y no suposiciones."
+          "motivo": "Permite diseñar soluciones basadas en necesidades reales y no suposiciones.",
+          "recursos": [
+            "roadmap"
+          ]
         },
         {
           "nombre": "Sistemas de Diseño y Accesibilidad",
@@ -1408,7 +1746,10 @@
           "peso": 2,
           "recurso": "mdn",
           "semanas": 3,
-          "motivo": "Asegura consistencia visual y que cualquier persona pueda usar el producto."
+          "motivo": "Asegura consistencia visual y que cualquier persona pueda usar el producto.",
+          "recursos": [
+            "mdn"
+          ]
         },
         {
           "nombre": "Nociones de HTML y CSS",
@@ -1421,7 +1762,11 @@
           "peso": 1,
           "recurso": "mdn",
           "semanas": 2,
-          "motivo": "Facilita la comunicación y entrega de diseños al equipo de desarrollo."
+          "motivo": "Facilita la comunicación y entrega de diseños al equipo de desarrollo.",
+          "recursos": [
+            "mdn",
+            "aprende_frontend"
+          ]
         },
         {
           "nombre": "Inglés técnico (lectura)",
@@ -1433,7 +1778,10 @@
           "peso": 1,
           "recurso": "freecodecamp",
           "semanas": 8,
-          "motivo": "Gran parte de los recursos y terminología UX están en inglés."
+          "motivo": "Gran parte de los recursos y terminología UX están en inglés.",
+          "recursos": [
+            "freecodecamp"
+          ]
         }
       ]
     },
@@ -1461,7 +1809,10 @@
           "peso": 3,
           "recurso": "roadmap",
           "semanas": 3,
-          "motivo": "Es el puente principal entre lo que pide el cliente y lo que programa el equipo."
+          "motivo": "Es el puente principal entre lo que pide el cliente y lo que programa el equipo.",
+          "recursos": [
+            "roadmap"
+          ]
         },
         {
           "nombre": "Modelado de Procesos (BPMN / Diagramas)",
@@ -1476,7 +1827,10 @@
           "peso": 3,
           "recurso": "roadmap",
           "semanas": 3,
-          "motivo": "Ayuda a visualizar flujos de negocio y detectar casos borde."
+          "motivo": "Ayuda a visualizar flujos de negocio y detectar casos borde.",
+          "recursos": [
+            "roadmap"
+          ]
         },
         {
           "nombre": "SQL básico para consultas",
@@ -1491,7 +1845,12 @@
           "peso": 2,
           "recurso": "sqlbolt",
           "semanas": 3,
-          "motivo": "Permite verificar datos reales sin depender siempre de un desarrollador."
+          "motivo": "Permite verificar datos reales sin depender siempre de un desarrollador.",
+          "recursos": [
+            "sqlbolt",
+            "mooc_dba",
+            "aprende_tratamiento_datos"
+          ]
         },
         {
           "nombre": "Pruebas Funcionales (UAT) y APIs",
@@ -1505,7 +1864,10 @@
           "peso": 2,
           "recurso": "roadmap",
           "semanas": 2,
-          "motivo": "Valida que lo desarrollado cumpla con las reglas de negocio acordadas."
+          "motivo": "Valida que lo desarrollado cumpla con las reglas de negocio acordadas.",
+          "recursos": [
+            "roadmap"
+          ]
         },
         {
           "nombre": "Metodologías Ágiles (Scrum / Kanban)",
@@ -1520,7 +1882,10 @@
           "peso": 2,
           "recurso": "roadmap",
           "semanas": 2,
-          "motivo": "Permite gestionar y priorizar el backlog junto al Product Owner."
+          "motivo": "Permite gestionar y priorizar el backlog junto al Product Owner.",
+          "recursos": [
+            "roadmap"
+          ]
         },
         {
           "nombre": "Inglés técnico (lectura)",
@@ -1532,7 +1897,10 @@
           "peso": 1,
           "recurso": "freecodecamp",
           "semanas": 8,
-          "motivo": "Útil para proyectos internacionales y documentación técnica."
+          "motivo": "Útil para proyectos internacionales y documentación técnica.",
+          "recursos": [
+            "freecodecamp"
+          ]
         }
       ]
     },
@@ -1563,7 +1931,12 @@
           "peso": 3,
           "recurso": "sqlbolt",
           "semanas": 4,
-          "motivo": "Es la base para estructurar tablas, relaciones y optimizar consultas."
+          "motivo": "Es la base para estructurar tablas, relaciones y optimizar consultas.",
+          "recursos": [
+            "sqlbolt",
+            "mooc_dba",
+            "aprende_tratamiento_datos"
+          ]
         },
         {
           "nombre": "Backups, Restauración y Seguridad DB",
@@ -1578,7 +1951,12 @@
           "peso": 3,
           "recurso": "mslearn",
           "semanas": 3,
-          "motivo": "Garantiza la integridad y disponibilidad de la información crítica."
+          "motivo": "Garantiza la integridad y disponibilidad de la información crítica.",
+          "recursos": [
+            "mslearn",
+            "aprende_seguridad",
+            "mooc_cybersecurity"
+          ]
         },
         {
           "nombre": "Sistemas Operativos (Linux y Windows Server)",
@@ -1591,7 +1969,12 @@
           "peso": 2,
           "recurso": "mslearn",
           "semanas": 3,
-          "motivo": "Los motores de bases de datos se instalan y monitorean sobre estos servidores."
+          "motivo": "Los motores de bases de datos se instalan y monitorean sobre estos servidores.",
+          "recursos": [
+            "mslearn",
+            "mooc_linux",
+            "aprende_sistemas_informaticos"
+          ]
         },
         {
           "nombre": "Bases de Datos NoSQL (nociones)",
@@ -1604,7 +1987,12 @@
           "peso": 1,
           "recurso": "roadmap",
           "semanas": 2,
-          "motivo": "Muchas arquitecturas combinan motores relacionales con caché o documentos."
+          "motivo": "Muchas arquitecturas combinan motores relacionales con caché o documentos.",
+          "recursos": [
+            "roadmap",
+            "mooc_dba",
+            "aprende_tratamiento_datos"
+          ]
         },
         {
           "nombre": "Inglés técnico (lectura)",
@@ -1616,7 +2004,10 @@
           "peso": 1,
           "recurso": "freecodecamp",
           "semanas": 8,
-          "motivo": "Los manuales oficiales de motores DB están en inglés."
+          "motivo": "Los manuales oficiales de motores DB están en inglés.",
+          "recursos": [
+            "freecodecamp"
+          ]
         }
       ]
     },
@@ -1647,7 +2038,10 @@
           "peso": 3,
           "recurso": "roadmap",
           "semanas": 3,
-          "motivo": "Es el marco de trabajo estándar para coordinar equipos de desarrollo."
+          "motivo": "Es el marco de trabajo estándar para coordinar equipos de desarrollo.",
+          "recursos": [
+            "roadmap"
+          ]
         },
         {
           "nombre": "Herramientas de Gestión (Jira, Trello, Notion)",
@@ -1662,7 +2056,10 @@
           "peso": 3,
           "recurso": "roadmap",
           "semanas": 2,
-          "motivo": "Permite dar visibilidad al avance, bloqueos y métricas del equipo."
+          "motivo": "Permite dar visibilidad al avance, bloqueos y métricas del equipo.",
+          "recursos": [
+            "roadmap"
+          ]
         },
         {
           "nombre": "Métricas Ágiles y Seguimiento",
@@ -1677,7 +2074,10 @@
           "peso": 2,
           "recurso": "mslearn",
           "semanas": 2,
-          "motivo": "Ayuda a predecir entregas y detectar cuellos de botella."
+          "motivo": "Ayuda a predecir entregas y detectar cuellos de botella.",
+          "recursos": [
+            "mslearn"
+          ]
         },
         {
           "nombre": "Nociones del Ciclo de Vida del Software (SDLC)",
@@ -1692,7 +2092,10 @@
           "peso": 2,
           "recurso": "cs50",
           "semanas": 3,
-          "motivo": "Entender cómo trabaja el equipo técnico mejora la facilitación."
+          "motivo": "Entender cómo trabaja el equipo técnico mejora la facilitación.",
+          "recursos": [
+            "cs50"
+          ]
         },
         {
           "nombre": "Inglés técnico (lectura)",
@@ -1704,7 +2107,10 @@
           "peso": 1,
           "recurso": "freecodecamp",
           "semanas": 8,
-          "motivo": "Muchos equipos distribuidos usan terminología y reportes en inglés."
+          "motivo": "Muchos equipos distribuidos usan terminología y reportes en inglés.",
+          "recursos": [
+            "freecodecamp"
+          ]
         }
       ]
     }
@@ -1866,6 +2272,277 @@
       "nombre": "AWS Skill Builder",
       "url": "https://skillbuilder.aws",
       "descripcion": "Cursos introductorios gratuitos de nube (varios requieren cuenta gratuita)"
+    },
+    "aprende": {
+      "nombre": "Aprende.org (Fundación Carlos Slim)",
+      "url": "https://aprende.org",
+      "descripcion": "Cursos y diplomados técnicos gratuitos con certificación oficial"
+    },
+    "mooc": {
+      "nombre": "mooc.es",
+      "url": "https://mooc.es",
+      "descripcion": "Catálogo agregador de cursos universitarios abiertos masivos en línea (MOOC)"
+    },
+    "aprende_ia_fundamentos": {
+      "nombre": "Aprende.org: Fundamentos de inteligencia artificial",
+      "url": "https://aprende.org",
+      "descripcion": "Curso introductorio a conceptos y aplicaciones de inteligencia artificial"
+    },
+    "aprende_ia_prompt": {
+      "nombre": "Aprende.org: Diseñador de peticiones para modelos de IA generativa",
+      "url": "https://aprende.org",
+      "descripcion": "Ingeniería de prompts y diseño de instrucciones para modelos generativos"
+    },
+    "aprende_big_data": {
+      "nombre": "Aprende.org: Diplomado Técnico en Big Data",
+      "url": "https://aprende.org",
+      "descripcion": "Diplomado en análisis, procesamiento y arquitectura de grandes volúmenes de datos"
+    },
+    "aprende_tratamiento_datos": {
+      "nombre": "Aprende.org: Especialidad en Tratamiento de datos",
+      "url": "https://aprende.org",
+      "descripcion": "Técnicas de preparación, limpieza, modelado y calidad de datos"
+    },
+    "aprende_bi": {
+      "nombre": "Aprende.org: Técnico en inteligencia de negocios (BI)",
+      "url": "https://aprende.org",
+      "descripcion": "Estrategias de Business Intelligence, diseño de métricas y soporte a decisiones"
+    },
+    "aprende_integrador_bi": {
+      "nombre": "Aprende.org: Integrador de soluciones BI",
+      "url": "https://aprende.org",
+      "descripcion": "Integración de datos heterogéneos y visualización ejecutiva en tableros"
+    },
+    "aprende_estructuras_datos": {
+      "nombre": "Aprende.org: Fundamentos de estructura de datos",
+      "url": "https://aprende.org",
+      "descripcion": "Estructuras de datos elementales y avanzadas para programación eficiente"
+    },
+    "aprende_analisis_informacion": {
+      "nombre": "Aprende.org: Recopilación y análisis de información",
+      "url": "https://aprende.org",
+      "descripcion": "Métodos de levantamiento, análisis cuantitativo e interpretación de información"
+    },
+    "aprende_sistemas_informaticos": {
+      "nombre": "Aprende.org: Diplomado Técnico en sistemas informáticos",
+      "url": "https://aprende.org",
+      "descripcion": "Administración de sistemas operativos, diagnóstico y soporte informático"
+    },
+    "aprende_web_movil": {
+      "nombre": "Aprende.org: Diplomado en Desarrollo de sitios web y aplicaciones móviles",
+      "url": "https://aprende.org",
+      "descripcion": "Desarrollo fullstack integral para navegadores web y dispositivos móviles"
+    },
+    "aprende_integridad_web": {
+      "nombre": "Aprende.org: Diplomado Técnico en integridad web",
+      "url": "https://aprende.org",
+      "descripcion": "Estándares web, seguridad, accesibilidad y calidad de software"
+    },
+    "aprende_csharp": {
+      "nombre": "Aprende.org: Programador en C#",
+      "url": "https://aprende.org",
+      "descripcion": "Desarrollo de software y lógica orientada a objetos con lenguaje C#"
+    },
+    "aprende_programacion_basica": {
+      "nombre": "Aprende.org: Programación Básica",
+      "url": "https://aprende.org",
+      "descripcion": "Fundamentos de lógica, diagramas de flujo y primeros pasos en código"
+    },
+    "aprende_frontend": {
+      "nombre": "Aprende.org: Desarrollo Web y Programación Front-End",
+      "url": "https://aprende.org",
+      "descripcion": "Construcción de interfaces con HTML, CSS, JavaScript y diseño responsivo"
+    },
+    "aprende_movil": {
+      "nombre": "Aprende.org: Desarrollo móvil en línea",
+      "url": "https://aprende.org",
+      "descripcion": "Creación, prueba y despliegue de aplicaciones para celulares"
+    },
+    "aprende_seguridad": {
+      "nombre": "Aprende.org: Fundamentos de seguridad informática",
+      "url": "https://aprende.org",
+      "descripcion": "Principios de protección de datos, prevención de ataques y seguridad de red"
+    },
+    "aprende_cloud": {
+      "nombre": "Aprende.org: Técnico en cómputo en la nube",
+      "url": "https://aprende.org",
+      "descripcion": "Fundamentos de virtualización, servicios e infraestructura en la nube"
+    },
+    "aprende_redes": {
+      "nombre": "Aprende.org: Técnico en redes inalámbricas",
+      "url": "https://aprende.org",
+      "descripcion": "Instalación, configuración y protocolos de comunicación de redes"
+    },
+    "aprende_iot": {
+      "nombre": "Aprende.org: Técnico en el Internet de las Cosas (IoT)",
+      "url": "https://aprende.org",
+      "descripcion": "Conectividad de dispositivos inteligentes, sensores y microcontroladores"
+    },
+    "aprende_computo_basico": {
+      "nombre": "Aprende.org: Cómputo básico",
+      "url": "https://aprende.org",
+      "descripcion": "Manejo fundamental del sistema operativo y programas esenciales"
+    },
+    "aprende_ofimatica": {
+      "nombre": "Aprende.org: Técnico en informática (Ofimática)",
+      "url": "https://aprende.org",
+      "descripcion": "Hojas de cálculo avanzadas, documentos, presentaciones y automatización"
+    },
+    "aprende_transformacion_digital": {
+      "nombre": "Aprende.org: Transformación digital y evolución tecnológica",
+      "url": "https://aprende.org",
+      "descripcion": "Adopción de tendencias tecnológicas, agilidad e innovación en equipos"
+    },
+    "mooc_excel_analytics": {
+      "nombre": "mooc.es: Business Analytics with Excel",
+      "url": "https://mooc.es",
+      "descripcion": "Análisis empresarial de datos y funciones avanzadas en hojas de cálculo"
+    },
+    "mooc_r_datos": {
+      "nombre": "mooc.es: Análisis de datos con programación en R",
+      "url": "https://mooc.es",
+      "descripcion": "Modelado estadístico, limpieza y gráficos analíticos con el lenguaje R"
+    },
+    "mooc_powerbi": {
+      "nombre": "mooc.es: Power BI: Power Query, DAX y Dashboards",
+      "url": "https://mooc.es",
+      "descripcion": "Construcción de dashboards interactivos, modelos dimensionales y DAX"
+    },
+    "mooc_dba": {
+      "nombre": "mooc.es: Relational Database Administration (DBA)",
+      "url": "https://mooc.es",
+      "descripcion": "Administración, consultas SQL y rendimiento de bases de datos relacionales"
+    },
+    "mooc_arima_python": {
+      "nombre": "mooc.es: Gold & Silver Price Prediction using ARIMA in Python",
+      "url": "https://mooc.es",
+      "descripcion": "Predicción de series temporales y econometría aplicada con Python"
+    },
+    "mooc_spark_ml": {
+      "nombre": "mooc.es: Data Engineering and Machine Learning using Spark",
+      "url": "https://mooc.es",
+      "descripcion": "Procesamiento distribuido con Apache Spark y algoritmos de Machine Learning"
+    },
+    "mooc_scikit_learn": {
+      "nombre": "mooc.es: Predicting Wine Quality with Random Forest and Scikit-Learn",
+      "url": "https://mooc.es",
+      "descripcion": "Entrenamiento y evaluación de modelos supervisados con Scikit-Learn"
+    },
+    "mooc_gcp_ml": {
+      "nombre": "mooc.es: Hands-on Machine Learning with Google Cloud Labs",
+      "url": "https://mooc.es",
+      "descripcion": "Laboratorios interactivos de Machine Learning sobre servicios de nube"
+    },
+    "mooc_etl_kafka_airflow": {
+      "nombre": "mooc.es: ETL and Data Pipelines with Shell, Airflow and Kafka",
+      "url": "https://mooc.es",
+      "descripcion": "Ingeniería de pipelines de datos, colas de mensajería y orquestación"
+    },
+    "mooc_data_engineering_capstone": {
+      "nombre": "mooc.es: Data Engineering Capstone Project",
+      "url": "https://mooc.es",
+      "descripcion": "Proyecto práctico completo integrando pipelines, bases de datos y análisis"
+    },
+    "mooc_prompt_engineering": {
+      "nombre": "mooc.es: Prompt Engineering for ChatGPT",
+      "url": "https://mooc.es",
+      "descripcion": "Optimización de prompts y técnicas de interacción con modelos LLM"
+    },
+    "mooc_python": {
+      "nombre": "mooc.es: Programación para todos (Introducción a Python)",
+      "url": "https://mooc.es",
+      "descripcion": "Curso introductorio a la sintaxis y estructuras de datos de Python"
+    },
+    "mooc_scala": {
+      "nombre": "mooc.es: Functional Program Design in Scala",
+      "url": "https://mooc.es",
+      "descripcion": "Patrones de diseño funcional y arquitectura de software con Scala"
+    },
+    "mooc_linux": {
+      "nombre": "mooc.es: Advanced Commands in Linux",
+      "url": "https://mooc.es",
+      "descripcion": "Comandos de shell, Bash scripting y administración del sistema operativo Linux"
+    },
+    "mooc_cloud_devops": {
+      "nombre": "mooc.es: Cloud: AWS, Azure y Google Cloud (DevOps, Kubernetes y Serverless)",
+      "url": "https://mooc.es",
+      "descripcion": "Conceptos de arquitectura en la nube, contenedores y microservicios"
+    },
+    "mooc_cybersecurity": {
+      "nombre": "mooc.es: Introduction to Cybersecurity Essentials",
+      "url": "https://mooc.es",
+      "descripcion": "Defensa cibernética, análisis de riesgos y conceptos esenciales de seguridad"
+    },
+    "mooc_checkpoint": {
+      "nombre": "mooc.es: Check Point Jump Start: Product Deployment",
+      "url": "https://mooc.es",
+      "descripcion": "Configuración y puesta en marcha de soluciones de seguridad perimetral"
+    }
+  },
+  "catalogo_cursos_externos": {
+    "aprende_org": {
+      "url_base": "https://aprende.org",
+      "categorias": {
+        "inteligencia_artificial": [
+          "Fundamentos de inteligencia artificial",
+          "Diseñador de peticiones para modelos de IA generativa"
+        ],
+        "datos_y_analitica": [
+          "Diplomado Técnico en Big Data",
+          "Especialidad en Tratamiento de datos",
+          "Técnico en inteligencia de negocios (Business Intelligence)",
+          "Integrador de soluciones BI",
+          "Fundamentos de estructura de datos",
+          "Recopilación y análisis de información"
+        ],
+        "informatica_desarrollo_y_sistemas": [
+          "Diplomado Técnico en sistemas informáticos",
+          "Diplomado en Desarrollo de sitios web y aplicaciones móviles",
+          "Diplomado Técnico en integridad web",
+          "Programador en C#",
+          "Programación Básica",
+          "Desarrollo Web y Programación Front-End",
+          "Desarrollo móvil en línea",
+          "Fundamentos de seguridad informática",
+          "Técnico en cómputo en la nube",
+          "Técnico en redes inalámbricas",
+          "Técnico en el Internet de las Cosas (IoT)",
+          "Cómputo básico",
+          "Técnico en informática (Ofimática)",
+          "Transformación digital y evolución tecnológica"
+        ]
+      }
+    },
+    "mooc_es": {
+      "url_base": "https://mooc.es",
+      "nota": "mooc.es es un agregador con más de 14.000 cursos (principalmente de Coursera y edX); esta selección agrupa cursos reales indexados en su catálogo según las herramientas y lenguajes de los perfiles solicitados.",
+      "categorias": {
+        "analisis_de_datos_y_bi": [
+          "Business Analytics with Excel: Elementary to Advanced",
+          "Análisis de datos con programación en R",
+          "Power BI: Power Query, DAX y Dashboards",
+          "Relational Database Administration (DBA)",
+          "Gold & Silver Price Prediction using ARIMA in Python"
+        ],
+        "ciencia_de_datos_e_ia": [
+          "Data Engineering and Machine Learning using Spark",
+          "Predicting Wine Quality with Random Forest and Scikit-Learn",
+          "Hands-on Machine Learning with Google Cloud Labs",
+          "ETL and Data Pipelines with Shell, Airflow and Kafka",
+          "Data Engineering Capstone Project",
+          "Prompt Engineering for ChatGPT"
+        ],
+        "desarrollo_fullstack_e_ingenieria_de_software": [
+          "Programación para todos (Introducción a Python)",
+          "Functional Program Design in Scala",
+          "Advanced Commands in Linux"
+        ],
+        "cloud_devops_y_ciberseguridad": [
+          "Cloud: AWS, Azure y Google Cloud (DevOps, Kubernetes y Serverless)",
+          "Introduction to Cybersecurity Essentials",
+          "Check Point Jump Start: Product Deployment"
+        ]
+      }
     }
   }
 }

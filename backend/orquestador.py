@@ -134,7 +134,14 @@ class ComponenteIA:
         """Etapa 9: responde dudas sobre el diagnóstico (con Gemini si hay; si no, por reglas)."""
         if self.gemini.disponible:
             try:
-                recursos = [p["recurso"] for p in resultado["plan_estudio_json"] if p.get("recurso")]
+                recursos = []
+                vistos_ctx = set()
+                for p in resultado["plan_estudio_json"]:
+                    recs = p.get("recursos") or ([p["recurso"]] if p.get("recurso") else [])
+                    for r in recs:
+                        if r and (r["nombre"], r["url"]) not in vistos_ctx:
+                            vistos_ctx.add((r["nombre"], r["url"]))
+                            recursos.append({**r, "para": p["habilidad"]})
                 ctx = {"puesto": resultado["puesto"]["titulo"], "puntaje": resultado["match_score"],
                        "compatibles": resultado["compatibles"], "faltan": [g["habilidad"] for g in resultado["skills_gap"]],
                        "plan": [{k: p[k] for k in ("orden", "habilidad", "accion", "duracion_semanas")} for p in resultado["plan_estudio_json"]],
@@ -162,10 +169,11 @@ def _lista_humana(items: List[str]) -> str:
 def _texto_enlaces(resultado: dict) -> str:
     vistos, lineas = set(), []
     for p in resultado["plan_estudio_json"]:
-        r = p.get("recurso")
-        if r and r["url"] not in vistos:
-            vistos.add(r["url"])
-            lineas.append("• %s (para %s): %s" % (r["nombre"], p["habilidad"], r["url"]))
+        recs = p.get("recursos") or ([p["recurso"]] if p.get("recurso") else [])
+        for r in recs:
+            if r and (r["nombre"], r["url"]) not in vistos:
+                vistos.add((r["nombre"], r["url"]))
+                lineas.append("• %s (para %s): %s" % (r["nombre"], p["habilidad"], r["url"]))
     if not lineas:
         return "Por ahora no tengo enlaces cargados para tu plan."
     return "Estos recursos gratuitos te pueden servir:\n" + "\n".join(lineas) + "\n\nRevisá siempre que estén vigentes antes de empezar."
@@ -369,10 +377,13 @@ class Orquestador:
         plan = []
         for i, s in enumerate(faltan[:5], start=1):
             p_ia = next((v for k, v in acciones_ia.items() if k == normalizar(s["nombre"]) or normalizar(s["nombre"]) in k or k in normalizar(s["nombre"])), None)
+            lista_recursos = self.rag.obtener_recursos(s)
+            rec_principal = lista_recursos[0] if lista_recursos else self.rag.recurso(s.get("recurso"))
             plan.append({"orden": i, "habilidad": s["nombre"],
                          "accion": (p_ia["accion"] if p_ia else "Estudiá los fundamentos y armá un mini proyecto para mostrar en tu portfolio."),
                          "duracion_semanas": (p_ia["duracion_semanas"] if p_ia and p_ia["duracion_semanas"] else s["semanas"]),
-                         "recurso": self.rag.recurso(s["recurso"])})
+                         "recurso": rec_principal,
+                         "recursos": lista_recursos})
         if ia and ia["experiencias"]:
             exps = ia["experiencias"]
         else:

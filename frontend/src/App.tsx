@@ -318,7 +318,31 @@ export default function App() {
     { t: 'Optimización de tu CV', d: 'Mejorá el formato y destacá tus habilidades.', b: 'Ver guía',
       c: analisis.problemas_ats.length ? <ul>{analisis.problemas_ats.map(p => <li key={p}>{p}</li>)}</ul> : <p>Tu CV no tiene problemas de formato importantes.</p> },
     { t: 'Formación recomendada', d: 'Cursos y recursos gratuitos para potenciar tu perfil.', b: 'Explorar',
-      c: analisis.plan_estudio_json.length ? <ol>{analisis.plan_estudio_json.map(p => <li key={p.orden}><b>{p.habilidad}</b> <small>(~{p.duracion_semanas} semanas)</small><span>{p.accion}</span>{p.recurso && <a href={p.recurso.url} target="_blank" rel="noopener noreferrer">{p.recurso.nombre}</a>}</li>)}</ol> : <p>No encontré brechas importantes.</p> },
+      c: analisis.plan_estudio_json.length ? (
+        <ol>
+          {analisis.plan_estudio_json.map(p => {
+            const lista = (p.recursos && p.recursos.length > 0) ? p.recursos : (p.recurso ? [p.recurso] : [])
+            return (
+              <li key={p.orden}>
+                <b>{p.habilidad}</b> <small>(~{p.duracion_semanas} semanas)</small>
+                <span>{p.accion}</span>
+                {lista.length > 0 && (
+                  <div className="opciones-cursos">
+                    {lista.length > 1 && <small>Opciones de cursos para elegir:</small>}
+                    <div className="lista-links">
+                      {lista.map((r, ri) => (
+                        <a key={ri} href={r.url} target="_blank" rel="noopener noreferrer" title={r.descripcion}>
+                          {r.nombre}
+                        </a>
+                      ))}
+                    </div>
+                  </div>
+                )}
+              </li>
+            )
+          })}
+        </ol>
+      ) : <p>No encontré brechas importantes.</p> },
     { t: 'Preparación para entrevistas', d: 'Consejos y práctica para ganar confianza.', b: 'Practicar', q: '¿Cómo me preparo para la entrevista?' },
     { t: 'Postulación estratégica', d: 'Aplicá a las mejores oportunidades.', b: 'Buscar', q: '¿Cómo me postulo?' },
   ] : []

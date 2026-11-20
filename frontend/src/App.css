@@ -136,6 +136,13 @@ small { display: block; font-size: .82rem; }
 .paso-c { flex: 1; min-width: 0; } .paso-f { display: flex; justify-content: space-between; align-items: center; gap: 12px; } .paso-f b { display: block; font-size: 1.05rem; }
 .mini { padding: 8px 20px; border-radius: 999px; background: #ffe3c8; color: #b45309; font-weight: 800; font-size: .9rem; } .mini:hover { background: #ffd5ac; }
 .paso-d { margin-top: 12px; padding: 14px 16px; border-radius: 16px; background: #fff8f1; line-height: 1.5; } .paso-d ul, .paso-d ol { padding-left: 18px; } .paso-d li { display: list-item; padding: 6px 0; border: 0; } .paso-d span { display: block; } .paso-d a { color: #2468c8; font-weight: 700; }
+/* ---- Links de cursos múltiples en el plan ---- */
+.paso-d .opciones-cursos { margin-top: 6px; display: flex; flex-direction: column; gap: 4px; }
+.paso-d .opciones-cursos small { font-weight: 700; color: var(--suave); font-size: .78rem; letter-spacing: .02em; text-transform: uppercase; }
+.paso-d .opciones-cursos .lista-links { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 2px; }
+.paso-d .opciones-cursos .lista-links a { display: inline-flex; align-items: center; gap: 5px; padding: 5px 12px; border-radius: 999px; background: #e8f0fe; color: #1a56db; font-size: .85rem; font-weight: 700; text-decoration: none; border: 1px solid #c7d9f8; transition: background .15s, transform .1s; }
+.paso-d .opciones-cursos .lista-links a:hover { background: #c7d9f8; transform: translateY(-1px); }
+.paso-d .opciones-cursos .lista-links a::before { content: '🔗'; font-size: .75rem; }
 .animo { position: relative; display: flex; align-items: center; gap: 16px; padding: 22px 24px; border-radius: var(--radio); min-height: 110px; background: linear-gradient(120deg, #ffe2c4, #ffd0a0); border: 1px solid var(--linea); overflow: hidden; } .animo b { font-size: 1.4rem; display: block; color: #c2410c; } .animo-r { position: absolute; right: 12px; bottom: -12px; }
 
 /* ---- estados vacíos y menú ---- */

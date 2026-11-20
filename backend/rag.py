@@ -112,5 +112,23 @@ class Recuperador:
         r = self.recursos.get(id_recurso or "")
         return {"nombre": r["nombre"], "url": r["url"], "descripcion": r["descripcion"]} if r else None
 
+    def obtener_recursos(self, skill: dict) -> List[dict]:
+        """Devuelve la lista de recursos (1 o más) asociados a una habilidad para que el usuario pueda elegir."""
+        ids: List[str] = []
+        if "recursos" in skill and isinstance(skill["recursos"], list):
+            for item in skill["recursos"]:
+                if isinstance(item, str) and item not in ids:
+                    ids.append(item)
+        if "recurso" in skill and isinstance(skill["recurso"], str) and skill["recurso"]:
+            if skill["recurso"] not in ids:
+                ids.insert(0, skill["recurso"])
+
+        resultado: List[dict] = []
+        for rid in ids:
+            rec = self.recurso(rid)
+            if rec and rec not in resultado:
+                resultado.append(rec)
+        return resultado
+
     def urls_permitidas(self) -> set:
         return {r["url"] for r in self.recursos.values()}

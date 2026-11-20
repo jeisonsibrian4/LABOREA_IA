@@ -4,7 +4,7 @@ export const API: string = import.meta.env.VITE_API_URL || 'http://127.0.0.1:800
 const CLAVE = 'laborea_session'
 
 export interface Recurso { nombre: string; url: string; descripcion: string }
-export interface PasoPlan { orden: number; habilidad: string; accion: string; duracion_semanas: number; recurso: Recurso | null }
+export interface PasoPlan { orden: number; habilidad: string; accion: string; duracion_semanas: number; recurso: Recurso | null; recursos?: Recurso[] }
 export interface Brecha { habilidad: string; importancia: 'alta' | 'media' | 'baja'; motivo: string }
 export interface Evidencia { nombre: string; evidencia: string }
 export interface Analisis {
