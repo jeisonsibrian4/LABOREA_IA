@@ -199,18 +199,8 @@ La matriz historia de usuario → componente → endpoint → tabla → prueba e
 | La **mascota** o el logo | `frontend/src/Robot.tsx` y `App.tsx` | El robot es un SVG editable; el logo es la «L» del menú. |
 | La **URL del backend** (al publicarlo) | `frontend/.env` | Copiá `.env.example` y poné `VITE_API_URL`. |
 
-## 8. Qué falta o hay que completar
 
-- **La base de mercado es de ejemplo.** Tiene 6 puestos con requisitos generales y recursos gratuitos conocidos. **No son vacantes reales** y hay que **revisar que los enlaces sigan vigentes**. Completala con los puestos que releve el equipo y con las academias e institutos locales que mencionan en su documento.
-- **Agente de búsquedas HTTP y agente de postulaciones** (último tramo del diagrama de flujo): no están. Los enlaces salen de la base curada; el paso «Postulación estratégica» del plan le explica a la persona que esa función todavía no está.
-- **Simulador de entrevistas:** hoy el paso «Practicar» da consejos generales; no hay simulación en vivo.
-- **Base vectorizada:** `rag.py` usa TF-IDF (sin embeddings). Está aislado en la clase `Recuperador`: para pasar a embeddings reales se reemplaza esa clase y el resto no cambia.
-- **Inicio de sesión:** hoy la conversación es anónima (un identificador secreto por sesión), en línea con la idea de «uso libre sin registro».
-- **Tabla `MENSAJE_CHAT`:** no figura en el diagrama; se agregó para guardar la memoria de la conversación. Pueden sumarla al diagrama o quitarla.
-- **HU-06:** el documento menciona HU-01 a HU-05 y HU-07. Completen en `docs/trazabilidad.md` el número de la historia de asesoría en tiempo real.
-- **Formación** (en «Mi perfil»): hoy no se extrae del CV; es un texto orientativo.
-
-## 9. Privacidad y seguridad
+## 8. Privacidad y seguridad
 
 - Antes de enviar texto a Gemini se tapan emails, teléfonos, DNI/CUIL y números de tarjeta.
 - Si alguien escribe un DNI, una tarjeta o una contraseña en el chat, el mensaje no se guarda.
@@ -218,7 +208,7 @@ La matriz historia de usuario → componente → endpoint → tabla → prueba e
 - El archivo se valida por su contenido real (un `.pdf` falso se rechaza), con tope de 5 MB.
 - Límites por IP para sesiones, mensajes y CV; con `ENTORNO=produccion` se ocultan `/docs` y `/openapi.json`.
 
-## 10. Pruebas
+## 9. Pruebas
 
 ```bash
 pip install -r backend/requirements-dev.txt
@@ -229,7 +219,7 @@ Cubren el flujo completo con PDF y con Word, las 5 tablas, el rechazo de formato
 
 **Importante:** las pruebas del modo Gemini usan una IA simulada. Cuando pongas tu clave, probá con un CV real y verificá que el análisis diga «Análisis con IA».
 
-## 11. Problemas comunes
+## 10. Problemas comunes
 
 | Síntoma | Qué revisar |
 |---|---|
@@ -241,16 +231,7 @@ Cubren el flujo completo con PDF y con Word, las 5 tablas, el rechazo de formato
 | Error de CORS en el navegador | Agregá la dirección del frontend a `FRONTEND_ORIGINS` en `backend/.env`. |
 | Quiero empezar de cero | Borrá `backend/laborea.db` (con el backend apagado). |
 
-## 12. Para entender el código (lo que pueden preguntar)
 
-- **¿Quién llama a Gemini y con qué?** El orquestador (`ComponenteIA.diagnosticar`), con el perfil, el texto del CV sin datos personales y la lista de habilidades requeridas del puesto.
-- **¿Qué devuelve y qué hace la app con eso?** Un JSON con habilidades, experiencias, faltantes, plan y resumen. La app lo **valida**, lo combina con la detección por reglas, calcula el puntaje, lo **guarda** en `ANALISIS_IA` y lo **muestra**.
-- **¿Qué pasa si falla Gemini?** Se lanza `IANoDisponible` y se usa el modo reglas.
-- **¿Por qué se valida la respuesta de la IA?** Porque un modelo puede inventar o ser manipulado desde el CV; el backend decide qué se acepta.
-- **¿Cómo se reconoce el puesto?** TF-IDF y similitud coseno entre lo que escribe la persona y los títulos, alias y habilidades de cada puesto (`rag.py`).
-- **¿Cómo se sabe que un CV es válido?** Por extensión y por contenido (`%PDF` / estructura ZIP de un .docx), tamaño, que no tenga contraseña y que tenga texto (`cv_extractor.py`).
-
----
 
 > 💡 **Guías Rápidas Adicionales:**  
 > - **[README2.md](README2.md):** Pasos esenciales de instalación y puesta en marcha rápida.  
